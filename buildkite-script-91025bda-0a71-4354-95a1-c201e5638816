@@ -1,0 +1,6 @@
+#!/bin/bash
+set -e
+echo '[90m$[0m git fetch origin refs/notes/*:refs/notes/*'
+git fetch origin refs/notes/*:refs/notes/*
+echo '[90m$[0m bazel build -c opt --stamp --embed_label "0.11.1" --workspace_status_command=scripts/ci/build_status_command.sh src/bazel scripts/packages/with-jdk/install.sh scripts/packages/without-jdk/install.sh scripts/packages/debian/bazel-debian.deb bazel-distfile.zip scripts/packages/debian/bazel.dsc scripts/packages/debian/bazel.tar.gz site/jekyll-tree.tar'
+bazel build -c opt --stamp --embed_label "0.11.1" --workspace_status_command=scripts/ci/build_status_command.sh src/bazel scripts/packages/with-jdk/install.sh scripts/packages/without-jdk/install.sh scripts/packages/debian/bazel-debian.deb bazel-distfile.zip scripts/packages/debian/bazel.dsc scripts/packages/debian/bazel.tar.gz site/jekyll-tree.tar

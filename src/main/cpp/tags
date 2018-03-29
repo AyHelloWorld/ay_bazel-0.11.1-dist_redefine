@@ -1,0 +1,873 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AGAIN	util/file_platform.h	/^    AGAIN = 3,$/;"	e	enum:blaze_util::ReadFileResult::Errors
+ATTRIBUTE_NORETURN	util/port.h	66;"	d
+ATTRIBUTE_NORETURN	util/port.h	68;"	d
+ATTRIBUTE_NORETURN	util/port.h	70;"	d
+ATTRIBUTE_UNUSED	util/port.h	37;"	d
+ATTRIBUTE_UNUSED	util/port.h	42;"	d
+AcquireLock	blaze.cc	/^uint64_t BlazeServer::AcquireLock() {$/;"	f	class:blaze::BlazeServer
+AcquireLock	blaze_util_posix.cc	/^uint64_t AcquireLock(const string& output_base, bool batch_mode, bool block,$/;"	f	namespace:blaze
+AcquireLock	blaze_util_windows.cc	/^uint64_t AcquireLock(const string& output_base, bool batch_mode, bool block,$/;"	f	namespace:blaze
+ActuallyExtractData	blaze.cc	/^static void ActuallyExtractData(const string &argv0,$/;"	f	namespace:blaze
+AddExtraOptions	startup_options.cc	/^void StartupOptions::AddExtraOptions(vector<string> *result) const {}$/;"	f	class:blaze::StartupOptions
+AddJVMArgumentPrefix	startup_options.cc	/^void StartupOptions::AddJVMArgumentPrefix(const string &javabase,$/;"	f	class:blaze::StartupOptions
+AddJVMArgumentSuffix	startup_options.cc	/^void StartupOptions::AddJVMArgumentSuffix(const string &real_install_dir,$/;"	f	class:blaze::StartupOptions
+AddJVMArguments	startup_options.cc	/^blaze_exit_code::ExitCode StartupOptions::AddJVMArguments($/;"	f	class:blaze::StartupOptions
+AddJVMLoggingArguments	startup_options.cc	/^void StartupOptions::AddJVMLoggingArguments(std::vector<string> *result) const {$/;"	f	class:blaze::StartupOptions
+AddJVMMemoryArguments	startup_options.cc	/^blaze_exit_code::ExitCode StartupOptions::AddJVMMemoryArguments($/;"	f	class:blaze::StartupOptions
+AddLoggingArgs	blaze.cc	/^static void AddLoggingArgs(vector<string> *args) {$/;"	f	namespace:blaze
+AddUncPrefixMaybe	util/file_windows.cc	/^static void AddUncPrefixMaybe(wstring* path, size_t max_path = MAX_PATH) {$/;"	f	namespace:blaze_util
+AsAbsoluteWindowsPath	util/file_windows.cc	/^bool AsAbsoluteWindowsPath(const string& path, wstring* result) {$/;"	f	namespace:blaze_util
+AsLower	util/strings.cc	/^string AsLower(const string &str) {$/;"	f	namespace:blaze_util
+AsShortWindowsPath	util/file_windows.cc	/^bool AsShortWindowsPath(const string& path, string* result) {$/;"	f	namespace:blaze_util
+AsWindowsPath	util/file_windows.cc	/^bool AsWindowsPath(const string& path, string* result) {$/;"	f	namespace:blaze_util
+AsWindowsPath	util/file_windows.cc	/^bool AsWindowsPath(const string& path, wstring* result) {$/;"	f	namespace:blaze_util
+AwaitServerProcessTermination	blaze_util.cc	/^bool AwaitServerProcessTermination(int pid, const string& output_base,$/;"	f	namespace:blaze
+BAD_ARGV	util/exit_code.h	/^  BAD_ARGV = 2,$/;"	e	enum:blaze_exit_code::ExitCode
+BAZEL_CHECK	util/logging.h	101;"	d
+BAZEL_CHECK_EQ	util/logging.h	104;"	d
+BAZEL_CHECK_GE	util/logging.h	109;"	d
+BAZEL_CHECK_GT	util/logging.h	108;"	d
+BAZEL_CHECK_LE	util/logging.h	107;"	d
+BAZEL_CHECK_LT	util/logging.h	106;"	d
+BAZEL_CHECK_NE	util/logging.h	105;"	d
+BAZEL_CHECK_OK	util/logging.h	103;"	d
+BAZEL_DCHECK	util/logging.h	115;"	d
+BAZEL_DCHECK_EQ	util/logging.h	118;"	d
+BAZEL_DCHECK_GE	util/logging.h	123;"	d
+BAZEL_DCHECK_GT	util/logging.h	122;"	d
+BAZEL_DCHECK_LE	util/logging.h	121;"	d
+BAZEL_DCHECK_LT	util/logging.h	120;"	d
+BAZEL_DCHECK_NE	util/logging.h	119;"	d
+BAZEL_DCHECK_OK	util/logging.h	117;"	d
+BAZEL_DLOG	util/logging.h	113;"	d
+BAZEL_LOG	util/logging.h	96;"	d
+BAZEL_LOG_IF	util/logging.h	99;"	d
+BAZEL_SRC_MAIN_CPP_BAZEL_LOG_HANDLER_H_	util/bazel_log_handler.h	16;"	d
+BAZEL_SRC_MAIN_CPP_BLAZE_H_	blaze.h	15;"	d
+BAZEL_SRC_MAIN_CPP_BLAZE_UTIL_H_	blaze_util.h	20;"	d
+BAZEL_SRC_MAIN_CPP_BLAZE_UTIL_PLATFORM_H_	blaze_util_platform.h	16;"	d
+BAZEL_SRC_MAIN_CPP_GLOBAL_VARIABLES_H_	global_variables.h	19;"	d
+BAZEL_SRC_MAIN_CPP_LOGGING_H_	util/logging.h	15;"	d
+BAZEL_SRC_MAIN_CPP_OPTION_PROCESSOR_H_	option_processor.h	16;"	d
+BAZEL_SRC_MAIN_CPP_OPTION_PROCESSOR_INTERNAL_H_	option_processor-internal.h	16;"	d
+BAZEL_SRC_MAIN_CPP_STARTUP_OPTIONS_H_	startup_options.h	15;"	d
+BAZEL_SRC_MAIN_CPP_UTIL_ERRORS_H_	util/errors.h	19;"	d
+BAZEL_SRC_MAIN_CPP_UTIL_EXIT_CODE_H_	util/exit_code.h	20;"	d
+BAZEL_SRC_MAIN_CPP_UTIL_FILE_H_	util/file.h	15;"	d
+BAZEL_SRC_MAIN_CPP_UTIL_FILE_PLATFORM_H_	util/file_platform.h	16;"	d
+BAZEL_SRC_MAIN_CPP_UTIL_MD5_H_	util/md5.h	19;"	d
+BAZEL_SRC_MAIN_CPP_UTIL_NUMBERS_H_	util/numbers.h	15;"	d
+BAZEL_SRC_MAIN_CPP_UTIL_PORT_H_	util/port.h	15;"	d
+BAZEL_SRC_MAIN_CPP_UTIL_STRINGS_H_	util/strings.h	15;"	d
+BAZEL_SRC_MAIN_CPP_WORKSPACE_LAYOUT_H_	workspace_layout.h	16;"	d
+BROKEN_PIPE	util/file_platform.h	/^    BROKEN_PIPE = 2,  \/\/ EPIPE (reading end of the pipe is closed)$/;"	e	enum:blaze_util::WriteResult::Errors
+Basename	util/file.cc	/^string Basename(const string &path) {$/;"	f	namespace:blaze_util
+BazelLogHandler	util/bazel_log_handler.cc	/^BazelLogHandler::BazelLogHandler()$/;"	f	class:blaze_util::BazelLogHandler
+BazelLogHandler	util/bazel_log_handler.h	/^class BazelLogHandler : public blaze_util::LogHandler {$/;"	c	namespace:blaze_util
+BlazeLock	blaze_util_platform.h	/^struct BlazeLock {$/;"	s	namespace:blaze
+BlazeServer	blaze.cc	/^class BlazeServer {$/;"	c	namespace:blaze	file:
+BlazeServerStartup	blaze_util_platform.h	/^class BlazeServerStartup {$/;"	c	namespace:blaze
+CANCEL	blaze.cc	/^  enum CancelThreadAction { NOTHING, JOIN, CANCEL, COMMAND_ID_RECEIVED };$/;"	e	enum:blaze::GrpcBlazeServer::CancelThreadAction	file:
+CFScopedReleaser	blaze_util_darwin.cc	/^  CFScopedReleaser() { }$/;"	f	class:blaze::CFScopedReleaser	file:
+CFScopedReleaser	blaze_util_darwin.cc	/^  explicit CFScopedReleaser(T value) : value_(value) { }$/;"	f	class:blaze::CFScopedReleaser
+CFScopedReleaser	blaze_util_darwin.cc	/^template <typename T> class CFScopedReleaser {$/;"	c	namespace:blaze	file:
+COMMAND_ID_RECEIVED	blaze.cc	/^  enum CancelThreadAction { NOTHING, JOIN, CANCEL, COMMAND_ID_RECEIVED };$/;"	e	enum:blaze::GrpcBlazeServer::CancelThreadAction	file:
+Callback	blaze_util_platform.h	/^  typedef void (* Callback)();$/;"	t	class:blaze::SignalHandler
+CanAccess	util/file_posix.cc	/^static bool CanAccess(const string &path, bool read, bool write, bool exec) {$/;"	f	namespace:blaze_util
+CanAccessDirectory	util/file_posix.cc	/^bool CanAccessDirectory(const std::string &path) {$/;"	f	namespace:blaze_util
+CanAccessDirectory	util/file_windows.cc	/^bool CanAccessDirectory(const std::string& path) {$/;"	f	namespace:blaze_util
+CanExecuteFile	util/file_posix.cc	/^bool CanExecuteFile(const std::string &path) {$/;"	f	namespace:blaze_util
+CanExecuteFile	util/file_windows.cc	/^bool CanExecuteFile(const std::string& path) {$/;"	f	namespace:blaze_util
+CanReadFile	util/file_posix.cc	/^bool CanReadFile(const std::string &path) {$/;"	f	namespace:blaze_util
+CanReadFile	util/file_windows.cc	/^bool CanReadFile(const std::string& path) {$/;"	f	namespace:blaze_util
+CanReadFileW	util/file_windows.cc	/^static bool CanReadFileW(const wstring& path) {$/;"	f	namespace:blaze_util
+Cancel	blaze.cc	/^void GrpcBlazeServer::Cancel() {$/;"	f	class:blaze::GrpcBlazeServer
+CancelServer	blaze.cc	/^static void CancelServer() { blaze_server->Cancel(); }$/;"	f	namespace:blaze
+CancelServer	blaze_util_platform.h	/^  void CancelServer() { _cancel_server(); }$/;"	f	class:blaze::SignalHandler
+CancelThread	blaze.cc	/^void GrpcBlazeServer::CancelThread() {$/;"	f	class:blaze::GrpcBlazeServer
+CancelThreadAction	blaze.cc	/^  enum CancelThreadAction { NOTHING, JOIN, CANCEL, COMMAND_ID_RECEIVED };$/;"	g	class:blaze::GrpcBlazeServer	file:
+ChangeDirectory	util/file_posix.cc	/^bool ChangeDirectory(const string& path) {$/;"	f	namespace:blaze_util
+ChangeDirectory	util/file_windows.cc	/^bool ChangeDirectory(const string& path) {$/;"	f	namespace:blaze_util
+CharTraits	util/file_windows.cc	/^struct CharTraits {$/;"	s	namespace:blaze_util	file:
+CharTraits	util/file_windows.cc	/^struct CharTraits<char> {$/;"	s	namespace:blaze_util	file:
+CharTraits	util/file_windows.cc	/^struct CharTraits<wchar_t> {$/;"	s	namespace:blaze_util	file:
+CheckAndGetBinaryPath	blaze.cc	/^static string CheckAndGetBinaryPath(const string &argv0) {$/;"	f	namespace:blaze
+CheckJavaVersionIsAtLeast	blaze_util.cc	/^bool CheckJavaVersionIsAtLeast(const string &jvm_version,$/;"	f	namespace:blaze
+CmdLine	blaze_util_windows.cc	/^struct CmdLine {$/;"	s	namespace:blaze::__anon2	file:
+CommandLine	option_processor.h	/^  CommandLine(const std::string& path_to_binary_arg,$/;"	f	struct:blaze::CommandLine
+CommandLine	option_processor.h	/^struct CommandLine {$/;"	s	namespace:blaze
+Communicate	blaze.cc	/^unsigned int GrpcBlazeServer::Communicate() {$/;"	f	class:blaze::GrpcBlazeServer
+CompareAbsolutePaths	blaze_util_posix.cc	/^bool CompareAbsolutePaths(const string& a, const string& b) {$/;"	f	namespace:blaze
+CompareAbsolutePaths	blaze_util_windows.cc	/^bool CompareAbsolutePaths(const string& a, const string& b) {$/;"	f	namespace:blaze
+CompoundZipProcessor	blaze.cc	/^  explicit CompoundZipProcessor($/;"	f	class:blaze::CompoundZipProcessor
+CompoundZipProcessor	blaze.cc	/^class CompoundZipProcessor : public devtools_ijar::ZipExtractorProcessor {$/;"	c	namespace:blaze	file:
+ComputeBaseDirectories	blaze.cc	/^static void ComputeBaseDirectories(const WorkspaceLayout *workspace_layout,$/;"	f	namespace:blaze
+ComputeInstallMd5AndNoteAllFiles	blaze.cc	/^static void ComputeInstallMd5AndNoteAllFiles(const string &self_path) {$/;"	f	namespace:blaze
+ComputeWorkspace	blaze.cc	/^static void ComputeWorkspace(const WorkspaceLayout *workspace_layout) {$/;"	f	namespace:blaze
+Connect	blaze.cc	/^bool GrpcBlazeServer::Connect() {$/;"	f	class:blaze::GrpcBlazeServer
+Connected	blaze.cc	/^  bool Connected() const { return connected_; }$/;"	f	class:blaze::BlazeServer
+ConsoleCtrlHandler	blaze_util_windows.cc	/^BOOL WINAPI ConsoleCtrlHandler(_In_ DWORD ctrlType) {$/;"	f	namespace:blaze
+ConvertPath	blaze_util_posix.cc	/^std::string ConvertPath(const std::string &path) { return path; }$/;"	f	namespace:blaze
+ConvertPath	blaze_util_windows.cc	/^string ConvertPath(const string& path) {$/;"	f	namespace:blaze
+ConvertStringVectorToArgv	blaze_util_posix.cc	/^const char** ConvertStringVectorToArgv(const vector<string>& args) {$/;"	f	namespace:blaze
+CreateCommandLine	blaze_util_windows.cc	/^static void CreateCommandLine(CmdLine* result, const string& exe,$/;"	f	namespace:blaze::__anon2
+CreateFileMtime	util/file_posix.cc	/^IFileMtime *CreateFileMtime() { return new PosixFileMtime(); }$/;"	f	namespace:blaze_util
+CreateFileMtime	util/file_windows.cc	/^IFileMtime* CreateFileMtime() { return new WindowsFileMtime(); }$/;"	f	namespace:blaze_util
+CreateJvmOutputFile	blaze_util_windows.cc	/^static HANDLE CreateJvmOutputFile(const wstring& path,$/;"	f	namespace:blaze
+CreatePipe	util/file_posix.cc	/^IPipe* CreatePipe() {$/;"	f	namespace:blaze_util
+CreatePipe	util/file_windows.cc	/^IPipe* CreatePipe() {$/;"	f	namespace:blaze_util
+CreateSecureOutputRoot	blaze_util_posix.cc	/^void CreateSecureOutputRoot(const string& path) {$/;"	f	namespace:blaze
+CreateSecureOutputRoot	blaze_util_windows.cc	/^void CreateSecureOutputRoot(const string& path) {$/;"	f	namespace:blaze
+CstringToWstring	util/strings.cc	/^unique_ptr<wchar_t[]> CstringToWstring(const char *input) {$/;"	f	namespace:blaze_util
+DECLARE_STREAM_OPERATOR	util/logging.cc	39;"	d	file:
+DECLARE_STREAM_OPERATOR	util/logging.cc	40;"	d	file:
+DECLARE_STREAM_OPERATOR	util/logging.cc	61;"	d	file:
+Daemonize	blaze_util_posix.cc	/^static void Daemonize(const char* daemon_output,$/;"	f	namespace:blaze
+DedupeBlazercPaths	option_processor.cc	/^vector<string> DedupeBlazercPaths(const vector<string>& paths) {$/;"	f	namespace:blaze::internal
+DescriptionFromCFError	blaze_util_darwin.cc	/^static string DescriptionFromCFError(CFErrorRef cf_err) {$/;"	f	namespace:blaze
+DetectBashOrDie	blaze_util_posix.cc	/^void DetectBashOrDie() {$/;"	f	namespace:blaze
+DetectBashOrDie	blaze_util_windows.cc	/^void DetectBashOrDie() {$/;"	f	namespace:blaze
+DieAfterFork	blaze_util_posix.cc	/^static void DieAfterFork(const char* message) {$/;"	f	namespace:blaze
+DirectoryEntryConsumer	util/file_platform.h	/^class DirectoryEntryConsumer {$/;"	c	namespace:blaze_util
+DirectoryTreeWalker	util/file.cc	/^  DirectoryTreeWalker(vector<string> *files,$/;"	f	class:blaze_util::DirectoryTreeWalker
+DirectoryTreeWalker	util/file.cc	/^class DirectoryTreeWalker : public DirectoryEntryConsumer {$/;"	c	namespace:blaze_util	file:
+Dirname	util/file.cc	/^string Dirname(const string &path) {$/;"	f	namespace:blaze_util
+Disconnect	blaze.cc	/^void GrpcBlazeServer::Disconnect() {$/;"	f	class:blaze::GrpcBlazeServer
+Dummy1	util/file_windows.cc	/^    USHORT Dummy1;$/;"	m	struct:blaze_util::JunctionResolver::_ReparseMountPointData	file:
+Dummy2	util/file_windows.cc	/^    USHORT Dummy2;$/;"	m	struct:blaze_util::JunctionResolver::_ReparseMountPointData	file:
+Dummy3	util/file_windows.cc	/^    USHORT Dummy3;$/;"	m	struct:blaze_util::JunctionResolver::_ReparseMountPointData	file:
+Dummy4	util/file_windows.cc	/^    USHORT Dummy4;$/;"	m	struct:blaze_util::JunctionResolver::_ReparseMountPointData	file:
+Dummy5	util/file_windows.cc	/^    USHORT Dummy5;$/;"	m	struct:blaze_util::JunctionResolver::_ReparseMountPointData	file:
+ENABLE_PROCESSED_OUTPUT	blaze_util_windows.cc	910;"	d	file:
+ENABLE_VIRTUAL_TERMINAL_PROCESSING	blaze_util_windows.cc	920;"	d	file:
+ENABLE_WRAP_AT_EOL_OUTPUT	blaze_util_windows.cc	915;"	d	file:
+EnsureCorrectRunningVersion	blaze.cc	/^static void EnsureCorrectRunningVersion(BlazeServer *server) {$/;"	f	namespace:blaze
+EnsurePythonPathOption	blaze_util_posix.cc	/^void EnsurePythonPathOption(vector<string>* options) {$/;"	f	namespace:blaze
+EnsurePythonPathOption	blaze_util_windows.cc	/^void EnsurePythonPathOption(std::vector<string>* options) {$/;"	f	namespace:blaze
+Errors	util/file.h	/^  enum Errors {$/;"	g	class:blaze_util::IPipe
+Errors	util/file_platform.h	/^  enum Errors {$/;"	g	struct:blaze_util::ReadFileResult
+Errors	util/file_platform.h	/^  enum Errors {$/;"	g	struct:blaze_util::WriteResult
+EscapeForOptionSource	blaze.cc	/^static string EscapeForOptionSource(const string &input) {$/;"	f	namespace:blaze
+ExcludePathFromBackup	blaze_util_darwin.cc	/^void ExcludePathFromBackup(const string &path) {$/;"	f	namespace:blaze
+ExcludePathFromBackup	blaze_util_freebsd.cc	/^void ExcludePathFromBackup(const string &path) {$/;"	f	namespace:blaze
+ExcludePathFromBackup	blaze_util_linux.cc	/^void ExcludePathFromBackup(const string &path) {$/;"	f	namespace:blaze
+ExcludePathFromBackup	blaze_util_windows.cc	/^void ExcludePathFromBackup(const string &path) {$/;"	f	namespace:blaze
+ExecuteDaemon	blaze_util_posix.cc	/^int ExecuteDaemon(const string& exe,$/;"	f	namespace:blaze
+ExecuteDaemon	blaze_util_windows.cc	/^int ExecuteDaemon(const string& exe, const std::vector<string>& args_vector,$/;"	f	namespace:blaze
+ExecuteProgram	blaze_util_posix.cc	/^void ExecuteProgram(const string &exe, const vector<string> &args_vector) {$/;"	f	namespace:blaze
+ExecuteProgram	blaze_util_windows.cc	/^void ExecuteProgram(const string& exe, const std::vector<string>& args_vector) {$/;"	f	namespace:blaze
+ExitCode	util/exit_code.h	/^enum ExitCode {$/;"	g	namespace:blaze_exit_code
+ExtractBlazeZipProcessor	blaze.cc	/^  explicit ExtractBlazeZipProcessor(const string &embedded_binaries)$/;"	f	class:blaze::ExtractBlazeZipProcessor
+ExtractBlazeZipProcessor	blaze.cc	/^class ExtractBlazeZipProcessor : public PureZipExtractorProcessor {$/;"	c	namespace:blaze	file:
+ExtractData	blaze.cc	/^static void ExtractData(const string &self_path) {$/;"	f	namespace:blaze
+F	util/md5.cc	201;"	d	file:
+FF	util/md5.cc	211;"	d	file:
+F_OFD_SETLK	blaze_util_posix.cc	569;"	d	file:
+Filename	option_processor.h	/^    const std::string& Filename() const { return filename_; }$/;"	f	class:blaze::OptionProcessor::RcFile
+FindAlongsideBinaryBlazerc	workspace_layout.cc	/^static string FindAlongsideBinaryBlazerc(const string& cwd,$/;"	f	namespace:blaze
+FindCandidateBlazercPaths	workspace_layout.cc	/^void WorkspaceLayout::FindCandidateBlazercPaths($/;"	f	class:blaze::WorkspaceLayout
+FindDepotBlazerc	workspace_layout.cc	/^static string FindDepotBlazerc(const blaze::WorkspaceLayout* workspace_layout,$/;"	f	namespace:blaze
+FindSystemWideBlazerc	blaze_util_posix.cc	/^string FindSystemWideBlazerc() {$/;"	f	namespace:blaze
+FindSystemWideBlazerc	blaze_util_windows.cc	/^string FindSystemWideBlazerc() {$/;"	f	namespace:blaze
+FindUserBlazerc	option_processor.cc	/^blaze_exit_code::ExitCode OptionProcessor::FindUserBlazerc($/;"	f	class:blaze::OptionProcessor
+Finish	util/logging.cc	/^void LogMessage::Finish() {$/;"	f	class:blaze_util::internal::LogMessage
+Finish	util/md5.cc	/^void Md5Digest::Finish(unsigned char digest[16]) {$/;"	f	class:blaze_util::Md5Digest
+ForEachDirectoryEntry	util/file_posix.cc	/^void ForEachDirectoryEntry(const string &path,$/;"	f	namespace:blaze_util
+ForEachDirectoryEntry	util/file_windows.cc	/^void ForEachDirectoryEntry(const string &path,$/;"	f	namespace:blaze_util
+G	util/md5.cc	202;"	d	file:
+GG	util/md5.cc	218;"	d	file:
+Get	blaze_util_platform.h	/^  static SignalHandler& Get() { return INSTANCE; }$/;"	f	class:blaze::SignalHandler
+Get	util/file_windows.cc	/^bool MsysRoot::Get(string* path) {$/;"	f	class:blaze_util::MsysRoot
+GetAllFilesUnder	util/file.cc	/^void GetAllFilesUnder(const string &path, vector<string> *result) {$/;"	f	namespace:blaze_util
+GetArgumentArray	blaze.cc	/^static vector<string> GetArgumentArray() {$/;"	f	namespace:blaze
+GetArgumentString	blaze.cc	/^static string GetArgumentString(const vector<string> &argument_array) {$/;"	f	namespace:blaze
+GetBashFromGitOnWin	blaze_util_windows.cc	/^static string GetBashFromGitOnWin() {$/;"	f	namespace:blaze
+GetBinaryFromPath	blaze_util_windows.cc	/^static string GetBinaryFromPath(const string& binary_name) {$/;"	f	namespace:blaze
+GetBlazercAndEnvCommandArgs	option_processor.cc	/^std::vector<std::string> OptionProcessor::GetBlazercAndEnvCommandArgs($/;"	f	class:blaze::OptionProcessor
+GetCommand	option_processor.cc	/^std::string OptionProcessor::GetCommand() const {$/;"	f	class:blaze::OptionProcessor
+GetCommandArguments	option_processor.cc	/^std::vector<std::string> OptionProcessor::GetCommandArguments() const {$/;"	f	class:blaze::OptionProcessor
+GetCurrentDrive	util/file_windows.cc	/^static char GetCurrentDrive() {$/;"	f	namespace:blaze_util
+GetCwd	util/file_posix.cc	/^string GetCwd() {$/;"	f	namespace:blaze_util
+GetCwd	util/file_windows.cc	/^string GetCwd() {$/;"	f	namespace:blaze_util
+GetCwdW	util/file_windows.cc	/^static unique_ptr<WCHAR[]> GetCwdW() {$/;"	f	namespace:blaze_util
+GetDefaultHostJavabase	blaze_util_darwin.cc	/^string GetDefaultHostJavabase() {$/;"	f	namespace:blaze
+GetDefaultHostJavabase	blaze_util_freebsd.cc	/^string GetDefaultHostJavabase() {$/;"	f	namespace:blaze
+GetDefaultHostJavabase	blaze_util_linux.cc	/^string GetDefaultHostJavabase() {$/;"	f	namespace:blaze
+GetDefaultHostJavabase	blaze_util_windows.cc	/^string GetDefaultHostJavabase() {$/;"	f	namespace:blaze
+GetDefaultHostJavabase	startup_options.cc	/^string StartupOptions::GetDefaultHostJavabase() const {$/;"	f	class:blaze::StartupOptions
+GetDirectoryStat	util/file_posix.cc	/^static bool GetDirectoryStat(const string &path, mode_t mode,$/;"	f	namespace:blaze_util
+GetEmbeddedBinariesRoot	blaze.cc	/^string GetEmbeddedBinariesRoot(const string &install_base) {$/;"	f	namespace:blaze
+GetEnv	blaze_util_posix.cc	/^string GetEnv(const string& name) {$/;"	f	namespace:blaze
+GetEnv	blaze_util_windows.cc	/^string GetEnv(const string& name) {$/;"	f	namespace:blaze
+GetExe	startup_options.cc	/^string StartupOptions::GetExe(const string &jvm, const string &jar_path) {$/;"	f	class:blaze::StartupOptions
+GetExitCodeForAbruptExit	blaze.cc	/^int GetExitCodeForAbruptExit(const GlobalVariables &globals) {$/;"	f	namespace:blaze
+GetExplicitCommandArguments	option_processor.cc	/^std::vector<std::string> OptionProcessor::GetExplicitCommandArguments() const {$/;"	f	class:blaze::OptionProcessor
+GetExplicitHostJavabase	startup_options.cc	/^string StartupOptions::GetExplicitHostJavabase() const {$/;"	f	class:blaze::StartupOptions
+GetExplicitSystemLimit	blaze_util_darwin.cc	/^int32_t GetExplicitSystemLimit(const int resource) {$/;"	f	namespace:blaze
+GetExplicitSystemLimit	blaze_util_freebsd.cc	/^int32_t GetExplicitSystemLimit(const int resource) {$/;"	f	namespace:blaze
+GetExplicitSystemLimit	blaze_util_linux.cc	/^int32_t GetExplicitSystemLimit(const int resource) {$/;"	f	namespace:blaze
+GetFrequency	blaze_util_windows.cc	/^LARGE_INTEGER WindowsClock::GetFrequency() {$/;"	f	class:blaze::WindowsClock
+GetFuture	util/file_posix.cc	/^time_t PosixFileMtime::GetFuture(unsigned int years) {$/;"	f	class:blaze_util::PosixFileMtime
+GetFuture	util/file_windows.cc	/^FILETIME WindowsFileMtime::GetFuture(WORD years) {$/;"	f	class:blaze_util::WindowsFileMtime
+GetGlobals	blaze_util_platform.h	/^  GlobalVariables* GetGlobals() { return _globals; }$/;"	f	class:blaze::SignalHandler
+GetHashedBaseDir	blaze_util_posix.cc	/^string GetHashedBaseDir(const string& root, const string& hashable) {$/;"	f	namespace:blaze
+GetHashedBaseDir	blaze_util_windows.cc	/^string GetHashedBaseDir(const string& root, const string& hashable) {$/;"	f	namespace:blaze
+GetHomeDir	blaze_util_posix.cc	/^string GetHomeDir() { return GetEnv("HOME"); }$/;"	f	namespace:blaze
+GetHomeDir	blaze_util_windows.cc	/^string GetHomeDir() {$/;"	f	namespace:blaze
+GetHostJavabase	startup_options.cc	/^string StartupOptions::GetHostJavabase() {$/;"	f	class:blaze::StartupOptions
+GetIfInDistantFuture	util/file_posix.cc	/^bool PosixFileMtime::GetIfInDistantFuture(const string &path, bool *result) {$/;"	f	class:blaze_util::PosixFileMtime
+GetIfInDistantFuture	util/file_windows.cc	/^bool WindowsFileMtime::GetIfInDistantFuture(const string& path, bool* result) {$/;"	f	class:blaze_util::WindowsFileMtime
+GetInstallKeyFileProcessor	blaze.cc	/^  explicit GetInstallKeyFileProcessor(string *install_base_key)$/;"	f	class:blaze::GetInstallKeyFileProcessor
+GetInstallKeyFileProcessor	blaze.cc	/^class GetInstallKeyFileProcessor : public PureZipExtractorProcessor {$/;"	c	namespace:blaze	file:
+GetJavaBinaryUnderJavabase	blaze_util_posix.cc	/^string GetJavaBinaryUnderJavabase() { return "bin\/java"; }$/;"	f	namespace:blaze
+GetJavaBinaryUnderJavabase	blaze_util_windows.cc	/^string GetJavaBinaryUnderJavabase() { return "bin\/java.exe"; }$/;"	f	namespace:blaze
+GetJvm	startup_options.cc	/^string StartupOptions::GetJvm() {$/;"	f	class:blaze::StartupOptions
+GetJvmVersion	blaze_util_posix.cc	/^string GetJvmVersion(const string& java_exe) {$/;"	f	namespace:blaze
+GetJvmVersion	blaze_util_windows.cc	/^string GetJvmVersion(const string& java_exe) {$/;"	f	namespace:blaze
+GetLastErrorString	util/errors_posix.cc	/^string GetLastErrorString() {$/;"	f	namespace:blaze_util
+GetLastErrorString	util/errors_windows.cc	/^string GetLastErrorString() {$/;"	f	namespace:blaze_util
+GetLowercaseProductName	startup_options.cc	/^string StartupOptions::GetLowercaseProductName() const {$/;"	f	class:blaze::StartupOptions
+GetMilliseconds	blaze_util_windows.cc	/^uint64_t WindowsClock::GetMilliseconds() const {$/;"	f	class:blaze::WindowsClock
+GetMillisecondsAsLargeInt	blaze_util_windows.cc	/^LARGE_INTEGER WindowsClock::GetMillisecondsAsLargeInt($/;"	f	class:blaze::WindowsClock
+GetMillisecondsMonotonic	blaze_util_darwin.cc	/^uint64_t GetMillisecondsMonotonic() {$/;"	f	namespace:blaze
+GetMillisecondsMonotonic	blaze_util_freebsd.cc	/^uint64_t GetMillisecondsMonotonic() {$/;"	f	namespace:blaze
+GetMillisecondsMonotonic	blaze_util_linux.cc	/^uint64_t GetMillisecondsMonotonic() {$/;"	f	namespace:blaze
+GetMillisecondsMonotonic	blaze_util_windows.cc	/^uint64_t GetMillisecondsMonotonic() {$/;"	f	namespace:blaze
+GetMillisecondsSinceProcessStart	blaze_util_darwin.cc	/^uint64_t GetMillisecondsSinceProcessStart() {$/;"	f	namespace:blaze
+GetMillisecondsSinceProcessStart	blaze_util_freebsd.cc	/^uint64_t GetMillisecondsSinceProcessStart() {$/;"	f	namespace:blaze
+GetMillisecondsSinceProcessStart	blaze_util_linux.cc	/^uint64_t GetMillisecondsSinceProcessStart() {$/;"	f	namespace:blaze
+GetMillisecondsSinceProcessStart	blaze_util_windows.cc	/^uint64_t GetMillisecondsSinceProcessStart() {$/;"	f	namespace:blaze
+GetMsysBash	blaze_util_windows.cc	/^static string GetMsysBash() {$/;"	f	namespace:blaze
+GetNextToken	util/strings.cc	/^static void GetNextToken(const string &str, const char &comment,$/;"	f	namespace:blaze_util
+GetNow	util/file_posix.cc	/^time_t PosixFileMtime::GetNow() {$/;"	f	class:blaze_util::PosixFileMtime
+GetNow	util/file_windows.cc	/^FILETIME WindowsFileMtime::GetNow() {$/;"	f	class:blaze_util::WindowsFileMtime
+GetNullaryOption	blaze_util.cc	/^bool GetNullaryOption(const char *arg, const char *key) {$/;"	f	namespace:blaze
+GetOutputRoot	blaze_util_darwin.cc	/^string GetOutputRoot() {$/;"	f	namespace:blaze
+GetOutputRoot	blaze_util_freebsd.cc	/^string GetOutputRoot() {$/;"	f	namespace:blaze
+GetOutputRoot	blaze_util_linux.cc	/^string GetOutputRoot() {$/;"	f	namespace:blaze
+GetOutputRoot	blaze_util_windows.cc	/^string GetOutputRoot() {$/;"	f	namespace:blaze
+GetOutputRoot	workspace_layout.cc	/^string WorkspaceLayout::GetOutputRoot() const {$/;"	f	class:blaze::WorkspaceLayout
+GetParsedStartupOptions	option_processor.cc	/^StartupOptions* OptionProcessor::GetParsedStartupOptions() const {$/;"	f	class:blaze::OptionProcessor
+GetPath	util/file_windows.cc	/^const string& MsysRoot::GetPath() {$/;"	f	class:blaze_util::MsysRoot
+GetProcessCWD	blaze_util_darwin.cc	/^string GetProcessCWD(int pid) {$/;"	f	namespace:blaze
+GetProcessCWD	blaze_util_freebsd.cc	/^string GetProcessCWD(int pid) {$/;"	f	namespace:blaze
+GetProcessCWD	blaze_util_linux.cc	/^string GetProcessCWD(int pid) {$/;"	f	namespace:blaze
+GetProcessCWD	blaze_util_windows.cc	/^string GetProcessCWD(int pid) {$/;"	f	namespace:blaze
+GetProcessIdAsString	blaze_util_posix.cc	/^string GetProcessIdAsString() {$/;"	f	namespace:blaze
+GetProcessIdAsString	blaze_util_windows.cc	/^string GetProcessIdAsString() {$/;"	f	namespace:blaze
+GetProcessMilliseconds	blaze_util_windows.cc	/^uint64_t WindowsClock::GetProcessMilliseconds() const {$/;"	f	class:blaze::WindowsClock
+GetProcessStartupTime	blaze_util_windows.cc	/^static bool GetProcessStartupTime(HANDLE process, uint64_t* result) {$/;"	f	namespace:blaze
+GetSelfPath	blaze_util_darwin.cc	/^string GetSelfPath() {$/;"	f	namespace:blaze
+GetSelfPath	blaze_util_freebsd.cc	/^string GetSelfPath() {$/;"	f	namespace:blaze
+GetSelfPath	blaze_util_linux.cc	/^string GetSelfPath() {$/;"	f	namespace:blaze
+GetSelfPath	blaze_util_windows.cc	/^string GetSelfPath() {$/;"	f	namespace:blaze
+GetServerPid	blaze.cc	/^static int GetServerPid(const string &server_dir) {$/;"	f	namespace:blaze
+GetStartTime	blaze_util_linux.cc	/^static bool GetStartTime(const string& pid, string* start_time) {$/;"	f	namespace:blaze
+GetTerminalColumns	blaze_util_posix.cc	/^int GetTerminalColumns() {$/;"	f	namespace:blaze
+GetTerminalColumns	blaze_util_windows.cc	/^int GetTerminalColumns() {$/;"	f	namespace:blaze
+GetUnaryOption	blaze_util.cc	/^const char* GetUnaryOption(const char *arg,$/;"	f	namespace:blaze
+GetUserName	blaze_util_posix.cc	/^string GetUserName() {$/;"	f	namespace:blaze
+GetUserName	blaze_util_windows.cc	/^string GetUserName() {$/;"	f	namespace:blaze
+GetUserName	blaze_util_windows.cc	1077;"	d	file:
+GetWorkspace	workspace_layout.cc	/^string WorkspaceLayout::GetWorkspace(const string &cwd) const {$/;"	f	class:blaze::WorkspaceLayout
+GlobalVariables	global_variables.cc	/^GlobalVariables::GlobalVariables(OptionProcessor* option_processor)$/;"	f	class:blaze::GlobalVariables
+GlobalVariables	global_variables.h	/^struct GlobalVariables {$/;"	s	namespace:blaze
+GoToWorkspace	blaze.cc	/^static void GoToWorkspace(const WorkspaceLayout *workspace_layout) {$/;"	f	namespace:blaze
+GrpcBlazeServer	blaze.cc	/^GrpcBlazeServer::GrpcBlazeServer(int connect_timeout_secs) {$/;"	f	class:blaze::GrpcBlazeServer
+GrpcBlazeServer	blaze.cc	/^class GrpcBlazeServer : public BlazeServer {$/;"	c	namespace:blaze	file:
+H	util/md5.cc	203;"	d	file:
+HAVE_ATTRIBUTE	util/port.h	57;"	d
+HAVE_ATTRIBUTE	util/port.h	59;"	d
+HH	util/md5.cc	223;"	d	file:
+HandleMessage	util/bazel_log_handler.cc	/^void BazelLogHandler::HandleMessage(LogLevel level, const std::string& filename,$/;"	f	class:blaze_util::BazelLogHandler
+HasDriveSpecifierPrefix	util/file_windows.cc	/^static bool HasDriveSpecifierPrefix(const char_type* ch) {$/;"	f	namespace:blaze_util
+I	util/md5.cc	204;"	d	file:
+IFileMtime	util/file_platform.h	/^class IFileMtime {$/;"	c	namespace:blaze_util
+II	util/md5.cc	228;"	d	file:
+INSTANCE	blaze_util_platform.h	/^  static SignalHandler INSTANCE;$/;"	m	class:blaze::SignalHandler
+INSTANCE	blaze_util_windows.cc	/^  static const WindowsClock INSTANCE;$/;"	m	class:blaze::WindowsClock	file:
+INSTANCE	blaze_util_windows.cc	/^const WindowsClock WindowsClock::INSTANCE;$/;"	m	class:blaze::WindowsClock	file:
+INTERNAL_ERROR	util/exit_code.h	/^  INTERNAL_ERROR = 37,$/;"	e	enum:blaze_exit_code::ExitCode
+INTERRUPTED	util/exit_code.h	/^  INTERRUPTED = 8,$/;"	e	enum:blaze_exit_code::ExitCode
+INTERRUPTED	util/file.h	/^    INTERRUPTED = 2,  \/\/ EINTR$/;"	e	enum:blaze_util::IPipe::Errors
+INTERRUPTED	util/file_platform.h	/^    INTERRUPTED = 2,$/;"	e	enum:blaze_util::ReadFileResult::Errors
+IOPRIO_CLASS_BE	util/port.h	/^  IOPRIO_CLASS_BE,$/;"	e	enum:IOPriorityClass
+IOPRIO_CLASS_IDLE	util/port.h	/^  IOPRIO_CLASS_IDLE,$/;"	e	enum:IOPriorityClass
+IOPRIO_CLASS_NONE	util/port.h	/^  IOPRIO_CLASS_NONE,$/;"	e	enum:IOPriorityClass
+IOPRIO_CLASS_RT	util/port.h	/^  IOPRIO_CLASS_RT,$/;"	e	enum:IOPriorityClass
+IOPRIO_CLASS_SHIFT	util/port.h	106;"	d
+IOPRIO_PRIO_VALUE	util/port.h	110;"	d
+IOPRIO_WHO_PGRP	util/port.h	/^  IOPRIO_WHO_PGRP,$/;"	e	enum:__anon1
+IOPRIO_WHO_PROCESS	util/port.h	/^  IOPRIO_WHO_PROCESS = 1,$/;"	e	enum:__anon1
+IOPRIO_WHO_USER	util/port.h	/^  IOPRIO_WHO_USER,$/;"	e	enum:__anon1
+IOPriorityClass	util/port.h	/^enum IOPriorityClass {$/;"	g
+IPipe	util/file.h	/^class IPipe {$/;"	c	namespace:blaze_util
+InWorkspace	workspace_layout.cc	/^bool WorkspaceLayout::InWorkspace(const string &workspace) const {$/;"	f	class:blaze::WorkspaceLayout
+Index	option_processor.h	/^    const int Index() const { return index_; }$/;"	f	class:blaze::OptionProcessor::RcFile
+InitIfNecessary	util/file_windows.cc	/^void MsysRoot::InitIfNecessary() {$/;"	f	class:blaze_util::MsysRoot
+Install	blaze_util_posix.cc	/^void SignalHandler::Install(GlobalVariables* globals,$/;"	f	class:blaze::SignalHandler
+Install	blaze_util_windows.cc	/^void SignalHandler::Install(GlobalVariables* globals,$/;"	f	class:blaze::SignalHandler
+IsAbsolute	util/file_posix.cc	/^bool IsAbsolute(const string &path) { return !path.empty() && path[0] == '\/'; }$/;"	f	namespace:blaze_util
+IsAbsolute	util/file_windows.cc	/^bool IsAbsolute(const string& path) { return IsRootOrAbsolute(path, false); }$/;"	f	namespace:blaze_util
+IsAlpha	util/file_windows.cc	/^  static bool IsAlpha(char ch) { return isalpha(ch); }$/;"	f	struct:blaze_util::CharTraits
+IsAlpha	util/file_windows.cc	/^  static bool IsAlpha(wchar_t ch) { return iswalpha(ch); }$/;"	f	struct:blaze_util::CharTraits
+IsArg	blaze_util.cc	/^bool IsArg(const string& arg) {$/;"	f	namespace:blaze
+IsDevNull	util/file_posix.cc	/^bool IsDevNull(const char *path) {$/;"	f	namespace:blaze_util
+IsDevNull	util/file_windows.cc	/^bool IsDevNull(const char* path) {$/;"	f	namespace:blaze_util
+IsDirectory	util/file_posix.cc	/^bool IsDirectory(const string& path) {$/;"	f	namespace:blaze_util
+IsDirectory	util/file_windows.cc	/^bool IsDirectory(const string& path) {$/;"	f	namespace:blaze_util
+IsDirectoryW	util/file_windows.cc	/^static bool IsDirectoryW(const wstring& path) {$/;"	f	namespace:blaze_util
+IsEmacsTerminal	blaze_util_posix.cc	/^bool IsEmacsTerminal() {$/;"	f	namespace:blaze
+IsEmacsTerminal	blaze_util_windows.cc	/^bool IsEmacsTerminal() {$/;"	f	namespace:blaze
+IsNullary	startup_options.cc	/^bool StartupOptions::IsNullary(const string& arg) const {$/;"	f	class:blaze::StartupOptions
+IsOk	util/logging.h	/^bool IsOk(T status) {$/;"	f	namespace:blaze_util::internal
+IsOk	util/logging.h	/^inline bool IsOk(bool status) {$/;"	f	namespace:blaze_util::internal
+IsPathSeparator	util/file_windows.cc	/^static bool IsPathSeparator(char_type ch) {$/;"	f	namespace:blaze_util
+IsRootDirectory	util/file_posix.cc	/^bool IsRootDirectory(const string &path) {$/;"	f	namespace:blaze_util
+IsRootDirectory	util/file_windows.cc	/^bool IsRootDirectory(const string& path) {$/;"	f	namespace:blaze_util
+IsRootDirectoryW	util/file_windows.cc	/^static bool IsRootDirectoryW(const wstring& path) {$/;"	f	namespace:blaze_util
+IsRootOrAbsolute	util/file_windows.cc	/^static bool IsRootOrAbsolute(const basic_string<char_type>& path,$/;"	f	namespace:blaze_util
+IsSharedLibrary	blaze_util_darwin.cc	/^bool IsSharedLibrary(const string &filename) {$/;"	f	namespace:blaze
+IsSharedLibrary	blaze_util_freebsd.cc	/^bool IsSharedLibrary(const string &filename) {$/;"	f	namespace:blaze
+IsSharedLibrary	blaze_util_linux.cc	/^bool IsSharedLibrary(const string &filename) {$/;"	f	namespace:blaze
+IsSharedLibrary	blaze_util_windows.cc	/^bool IsSharedLibrary(const string &filename) {$/;"	f	namespace:blaze
+IsStandardTerminal	blaze_util_posix.cc	/^bool IsStandardTerminal() {$/;"	f	namespace:blaze
+IsStandardTerminal	blaze_util_windows.cc	/^bool IsStandardTerminal() {$/;"	f	namespace:blaze
+IsStillAlive	blaze_util_posix.cc	/^bool SocketBlazeServerStartup::IsStillAlive() {$/;"	f	class:blaze::SocketBlazeServerStartup
+IsUnary	startup_options.cc	/^bool StartupOptions::IsUnary(const string& arg) const {$/;"	f	class:blaze::StartupOptions
+IsValid	startup_options.cc	/^bool NullaryStartupFlag::IsValid(const std::string &arg) const {$/;"	f	class:blaze::NullaryStartupFlag
+IsValid	startup_options.cc	/^bool UnaryStartupFlag::IsValid(const std::string &arg) const {$/;"	f	class:blaze::UnaryStartupFlag
+IsValid	util/file_windows.cc	/^bool MsysRoot::IsValid() {$/;"	f	class:blaze_util::MsysRoot
+IsValidEnvName	option_processor.cc	/^static bool IsValidEnvName(const char* p) {$/;"	f	namespace:blaze
+JOIN	blaze.cc	/^  enum CancelThreadAction { NOTHING, JOIN, CANCEL, COMMAND_ID_RECEIVED };$/;"	e	enum:blaze::GrpcBlazeServer::CancelThreadAction	file:
+JoinPath	util/file.cc	/^string JoinPath(const string &path1, const string &path2) {$/;"	f	namespace:blaze_util
+JoinStrings	util/strings.cc	/^void JoinStrings(const vector<string> &pieces, const char delimeter,$/;"	f	namespace:blaze_util
+JunctionResolver	util/file_windows.cc	/^JunctionResolver::JunctionResolver()$/;"	f	class:blaze_util::JunctionResolver
+JunctionResolver	util/file_windows.cc	/^class JunctionResolver {$/;"	c	namespace:blaze_util	file:
+KillRunningServer	blaze.cc	/^void GrpcBlazeServer::KillRunningServer() {$/;"	f	class:blaze::GrpcBlazeServer
+KillRunningServerIfDifferentStartupOptions	blaze.cc	/^static void KillRunningServerIfDifferentStartupOptions(BlazeServer *server) {$/;"	f	namespace:blaze
+KillServerProcess	blaze_util_posix.cc	/^bool KillServerProcess(int pid, const string& output_base) {$/;"	f	namespace:blaze
+KillServerProcess	blaze_util_windows.cc	/^bool KillServerProcess(int pid, const string& output_base) {$/;"	f	namespace:blaze
+LOCAL_ENVIRONMENTAL_ERROR	util/exit_code.h	/^  LOCAL_ENVIRONMENTAL_ERROR = 36,$/;"	e	enum:blaze_exit_code::ExitCode
+LOGLEVEL_DFATAL	util/logging.h	/^  LOGLEVEL_DFATAL = LOGLEVEL_ERROR$/;"	e	enum:blaze_util::LogLevel
+LOGLEVEL_ERROR	util/logging.h	/^  LOGLEVEL_ERROR,$/;"	e	enum:blaze_util::LogLevel
+LOGLEVEL_FATAL	util/logging.h	/^  LOGLEVEL_FATAL,$/;"	e	enum:blaze_util::LogLevel
+LOGLEVEL_INFO	util/logging.h	/^  LOGLEVEL_INFO,$/;"	e	enum:blaze_util::LogLevel
+LOGLEVEL_WARNING	util/logging.h	/^  LOGLEVEL_WARNING,$/;"	e	enum:blaze_util::LogLevel
+LocateBash	blaze_util_windows.cc	/^static string LocateBash() {$/;"	f	namespace:blaze
+LogFinisher	util/logging.h	/^class LogFinisher {$/;"	c	namespace:blaze_util::internal
+LogHandler	util/logging.h	/^class LogHandler {$/;"	c	namespace:blaze_util
+LogLevel	util/logging.h	/^enum LogLevel {$/;"	g	namespace:blaze_util
+LogLevelName	util/logging.cc	/^const char* LogLevelName(LogLevel level) {$/;"	f	namespace:blaze_util
+LogMessage	util/logging.cc	/^LogMessage::LogMessage(LogLevel level, const std::string& filename, int line)$/;"	f	class:blaze_util::internal::LogMessage
+LogMessage	util/logging.h	/^class LogMessage {$/;"	c	namespace:blaze_util::internal
+LogWait	blaze_util.cc	/^void LogWait(unsigned int elapsed_seconds, unsigned int wait_seconds) {$/;"	f	namespace:blaze
+MAX_CMDLINE_LENGTH	blaze_util_windows.cc	/^static const int MAX_CMDLINE_LENGTH = 32768;$/;"	m	namespace:blaze::__anon2	file:
+MAX_KEY_LENGTH	blaze_util_windows.cc	/^static const int MAX_KEY_LENGTH = 255;$/;"	m	namespace:blaze	file:
+Main	blaze.cc	/^int Main(int argc, const char *argv[], WorkspaceLayout *workspace_layout,$/;"	f	namespace:blaze
+MakeAbsolute	blaze_util.cc	/^string MakeAbsolute(const string &p) {$/;"	f	namespace:blaze
+MakeCanonical	util/file_posix.cc	/^string MakeCanonical(const char *path) {$/;"	f	namespace:blaze_util
+MakeCanonical	util/file_windows.cc	/^string MakeCanonical(const char* path) {$/;"	f	namespace:blaze_util
+MakeDirectories	util/file_posix.cc	/^bool MakeDirectories(const string &path, unsigned int mode) {$/;"	f	namespace:blaze_util
+MakeDirectories	util/file_posix.cc	/^static bool MakeDirectories(const string &path, mode_t mode, bool childmost) {$/;"	f	namespace:blaze_util
+MakeDirectories	util/file_windows.cc	/^bool MakeDirectories(const string& path, unsigned int mode) {$/;"	f	namespace:blaze_util
+MakeDirectoriesW	util/file_windows.cc	/^static bool MakeDirectoriesW(const wstring& path) {$/;"	f	namespace:blaze_util
+Md5Digest	util/md5.cc	/^Md5Digest::Md5Digest() {$/;"	f	class:blaze_util::Md5Digest
+Md5Digest	util/md5.cc	/^Md5Digest::Md5Digest(const Md5Digest& original) {$/;"	f	class:blaze_util::Md5Digest
+Md5Digest	util/md5.h	/^class Md5Digest {$/;"	c	namespace:blaze_util
+MsysRoot	util/file_windows.cc	/^  MsysRoot() : initialized_(false) {}$/;"	f	class:blaze_util::MsysRoot	file:
+MsysRoot	util/file_windows.cc	/^class MsysRoot {$/;"	c	namespace:blaze_util	file:
+NEW_OPTIONS	global_variables.h	/^  NEW_OPTIONS,$/;"	e	enum:blaze::RestartReason
+NEW_VERSION	global_variables.h	/^  NEW_VERSION,$/;"	e	enum:blaze::RestartReason
+NOTHING	blaze.cc	/^  enum CancelThreadAction { NOTHING, JOIN, CANCEL, COMMAND_ID_RECEIVED };$/;"	e	enum:blaze::GrpcBlazeServer::CancelThreadAction	file:
+NO_DAEMON	global_variables.h	/^  NO_DAEMON,$/;"	e	enum:blaze::RestartReason
+NO_RESTART	global_variables.h	/^  NO_RESTART = 0,$/;"	e	enum:blaze::RestartReason
+NeedsParameter	startup_options.cc	/^bool NullaryStartupFlag::NeedsParameter() const {$/;"	f	class:blaze::NullaryStartupFlag
+NeedsParameter	startup_options.cc	/^bool UnaryStartupFlag::NeedsParameter() const {$/;"	f	class:blaze::UnaryStartupFlag
+NestedJobsSupported	blaze_util_windows.cc	/^static bool NestedJobsSupported() {$/;"	f	namespace:blaze
+NormalizeWindowsPath	util/file_windows.cc	/^string NormalizeWindowsPath(string path) {$/;"	f	namespace:blaze_util
+NoteAllFilesZipProcessor	blaze.cc	/^  explicit NoteAllFilesZipProcessor(std::vector<std::string>* files)$/;"	f	class:blaze::NoteAllFilesZipProcessor
+NoteAllFilesZipProcessor	blaze.cc	/^class NoteAllFilesZipProcessor : public PureZipExtractorProcessor {$/;"	c	namespace:blaze	file:
+NullaryStartupFlag	startup_options.h	/^  NullaryStartupFlag(const std::string& name) : name_(name) {}$/;"	f	class:blaze::NullaryStartupFlag
+NullaryStartupFlag	startup_options.h	/^class NullaryStartupFlag : public StartupFlag {$/;"	c	namespace:blaze
+OTHER_ERROR	util/file.h	/^    OTHER_ERROR = 1,$/;"	e	enum:blaze_util::IPipe::Errors
+OTHER_ERROR	util/file_platform.h	/^    OTHER_ERROR = 1,  \/\/ some uncategorized error occurred$/;"	e	enum:blaze_util::WriteResult::Errors
+OTHER_ERROR	util/file_platform.h	/^    OTHER_ERROR = 1,$/;"	e	enum:blaze_util::ReadFileResult::Errors
+OpenFileForReading	util/file_windows.cc	/^static bool OpenFileForReading(const string& filename, HANDLE* result) {$/;"	f	namespace:blaze_util
+OptionProcessor	option_processor.cc	/^OptionProcessor::OptionProcessor($/;"	f	class:blaze::OptionProcessor
+OptionProcessor	option_processor.h	/^class OptionProcessor {$/;"	c	namespace:blaze
+PID_FILE_BUT_NO_SERVER	global_variables.h	/^  PID_FILE_BUT_NO_SERVER,$/;"	e	enum:blaze::RestartReason
+PRINTF_ATTRIBUTE	util/port.h	33;"	d
+PRINTF_ATTRIBUTE	util/port.h	41;"	d
+Parse	option_processor.cc	/^blaze_exit_code::ExitCode OptionProcessor::RcFile::Parse($/;"	f	class:blaze::OptionProcessor::RcFile
+ParseOptions	blaze.cc	/^static void ParseOptions(int argc, const char *argv[]) {$/;"	f	namespace:blaze
+ParseOptions	option_processor.cc	/^blaze_exit_code::ExitCode OptionProcessor::ParseOptions($/;"	f	class:blaze::OptionProcessor
+ParseStartupOptions	option_processor.cc	/^blaze_exit_code::ExitCode OptionProcessor::ParseStartupOptions($/;"	f	class:blaze::OptionProcessor
+PathAsJvmFlag	blaze_util_posix.cc	/^std::string PathAsJvmFlag(const std::string& path) { return path; }$/;"	f	namespace:blaze
+PathAsJvmFlag	blaze_util_windows.cc	/^string PathAsJvmFlag(const string& path) {$/;"	f	namespace:blaze
+PathBuffer	util/file_windows.cc	/^    WCHAR PathBuffer[1];$/;"	m	struct:blaze_util::JunctionResolver::_ReparseMountPointData	file:
+PathExists	util/file_posix.cc	/^bool PathExists(const string& path) {$/;"	f	namespace:blaze_util
+PathExists	util/file_windows.cc	/^bool PathExists(const string& path) {$/;"	f	namespace:blaze_util
+PosixFileMtime	util/file_posix.cc	/^  PosixFileMtime()$/;"	f	class:blaze_util::PosixFileMtime
+PosixFileMtime	util/file_posix.cc	/^class PosixFileMtime : public IFileMtime {$/;"	c	namespace:blaze_util	file:
+PosixPipe	util/file_posix.cc	/^  PosixPipe(int recv_socket, int send_socket)$/;"	f	class:blaze_util::PosixPipe
+PosixPipe	util/file_posix.cc	/^class PosixPipe : public IPipe {$/;"	c	namespace:blaze_util	file:
+PrepareEnvironmentForJvm	blaze.cc	/^static void PrepareEnvironmentForJvm() {$/;"	f	namespace:blaze
+PreprocessEnvString	option_processor.cc	/^static void PreprocessEnvString(const string* env_str) {$/;"	f	namespace:blaze
+PreprocessEnvString	option_processor.cc	/^static void PreprocessEnvString(string* env_str) {$/;"	f	namespace:blaze
+PrintError	util/errors.cc	/^void PrintError(const char *format, ...) {$/;"	f	namespace:blaze_util
+PrintErrorW	blaze_util_windows.cc	/^static void PrintErrorW(const wstring& op) {$/;"	f	namespace:blaze
+PrintStartupOptions	option_processor.cc	/^static void PrintStartupOptions(const std::string& source,$/;"	f	namespace:blaze
+PrintStartupOptionsProvenanceMessage	option_processor.cc	/^void OptionProcessor::PrintStartupOptionsProvenanceMessage() const {$/;"	f	class:blaze::OptionProcessor
+PrintWarning	util/errors.cc	/^void PrintWarning(const char *format, ...) {$/;"	f	namespace:blaze_util
+ProcessArg	startup_options.cc	/^blaze_exit_code::ExitCode StartupOptions::ProcessArg($/;"	f	class:blaze::StartupOptions
+ProcessArgExtra	startup_options.cc	/^blaze_exit_code::ExitCode StartupOptions::ProcessArgExtra($/;"	f	class:blaze::StartupOptions
+ProcessArgs	startup_options.cc	/^blaze_exit_code::ExitCode StartupOptions::ProcessArgs($/;"	f	class:blaze::StartupOptions
+ProcessHandleBlazeServerStartup	blaze_util_windows.cc	/^  ProcessHandleBlazeServerStartup(HANDLE _proc) : proc(_proc) {}$/;"	f	class:blaze::ProcessHandleBlazeServerStartup
+ProcessHandleBlazeServerStartup	blaze_util_windows.cc	/^class ProcessHandleBlazeServerStartup : public BlazeServerStartup {$/;"	c	namespace:blaze	file:
+PropagateSignalOrExit	blaze_util_posix.cc	/^ATTRIBUTE_NORETURN void SignalHandler::PropagateSignalOrExit(int exit_code) {$/;"	f	class:blaze::SignalHandler
+PropagateSignalOrExit	blaze_util_windows.cc	/^ATTRIBUTE_NORETURN void SignalHandler::PropagateSignalOrExit(int exit_code) {$/;"	f	class:blaze::SignalHandler
+PureZipExtractorProcessor	blaze.cc	/^class PureZipExtractorProcessor : public devtools_ijar::ZipExtractorProcessor {$/;"	c	namespace:blaze	file:
+REG_VALUE_BUFFER_SIZE	blaze_util_windows.cc	/^static const int REG_VALUE_BUFFER_SIZE = MAX_PATH;$/;"	m	namespace:blaze	file:
+ROTATE_LEFT	util/md5.cc	207;"	d	file:
+RcFile	option_processor.cc	/^OptionProcessor::RcFile::RcFile(const string& filename, int index)$/;"	f	class:blaze::OptionProcessor::RcFile
+RcFile	option_processor.h	/^  class RcFile {$/;"	c	class:blaze::OptionProcessor
+RcOption	option_processor.cc	/^OptionProcessor::RcOption::RcOption(int rcfile_index, const string& option)$/;"	f	class:blaze::OptionProcessor::RcOption
+RcOption	option_processor.h	/^  class RcOption {$/;"	c	class:blaze::OptionProcessor
+RcStartupFlag	startup_options.h	/^  RcStartupFlag(const std::string& source_arg,$/;"	f	struct:blaze::RcStartupFlag
+RcStartupFlag	startup_options.h	/^struct RcStartupFlag {$/;"	s	namespace:blaze
+ReadDirectorySymlink	util/file_posix.cc	/^bool ReadDirectorySymlink(const string &name, string *result) {$/;"	f	namespace:blaze_util
+ReadDirectorySymlink	util/file_windows.cc	/^bool ReadDirectorySymlink(const string& name, string* result) {$/;"	f	namespace:blaze_util
+ReadFile	util/file_posix.cc	/^bool ReadFile(const string &filename, string *content, int max_size) {$/;"	f	namespace:blaze_util
+ReadFile	util/file_posix.cc	/^bool ReadFile(const string &filename, void *data, size_t size) {$/;"	f	namespace:blaze_util
+ReadFile	util/file_windows.cc	/^bool ReadFile(const string& filename, string* content, int max_size) {$/;"	f	namespace:blaze_util
+ReadFile	util/file_windows.cc	/^bool ReadFile(const string& filename, void* data, size_t size) {$/;"	f	namespace:blaze_util
+ReadFileResult	util/file_platform.h	/^struct ReadFileResult {$/;"	s	namespace:blaze_util
+ReadFrom	util/file.cc	/^bool ReadFrom(file_handle_type handle, string *content, int max_size) {$/;"	f	namespace:blaze_util
+ReadFrom	util/file.cc	/^bool ReadFrom(file_handle_type handle, void *data, size_t size) {$/;"	f	namespace:blaze_util
+ReadFromFdWithRetryEintr	blaze_util_posix.cc	/^static void ReadFromFdWithRetryEintr($/;"	f	namespace:blaze
+ReadFromHandle	util/file_posix.cc	/^int ReadFromHandle(file_handle_type fd, void *data, size_t size, int *error) {$/;"	f	namespace:blaze_util
+ReadFromHandle	util/file_windows.cc	/^int ReadFromHandle(file_handle_type handle, void* data, size_t size,$/;"	f	namespace:blaze_util
+ReadJvmVersion	blaze_util.cc	/^string ReadJvmVersion(const string& version_string) {$/;"	f	namespace:blaze
+RegisterNullaryStartupFlag	startup_options.cc	/^void StartupOptions::RegisterNullaryStartupFlag(const std::string &flag_name) {$/;"	f	class:blaze::StartupOptions
+RegisterUnaryStartupFlag	startup_options.cc	/^void StartupOptions::RegisterUnaryStartupFlag(const std::string &flag_name) {$/;"	f	class:blaze::StartupOptions
+ReleaseLock	blaze_util_posix.cc	/^void ReleaseLock(BlazeLock* blaze_lock) {$/;"	f	namespace:blaze
+ReleaseLock	blaze_util_windows.cc	/^void ReleaseLock(BlazeLock* blaze_lock) {$/;"	f	namespace:blaze
+RemoveUncPrefixMaybe	util/file_windows.cc	/^const wchar_t* RemoveUncPrefixMaybe(const wchar_t* ptr) {$/;"	f	namespace:blaze_util
+RenameDirectory	util/file_posix.cc	/^int RenameDirectory(const std::string &old_name, const std::string &new_name) {$/;"	f	namespace:blaze_util
+RenameDirectory	util/file_windows.cc	/^int RenameDirectory(const std::string& old_name, const std::string& new_name) {$/;"	f	namespace:blaze_util
+RenameDirectoryResult	util/file_platform.h	/^enum RenameDirectoryResult {$/;"	g	namespace:blaze_util
+ReparseMountPointData	util/file_windows.cc	/^  } ReparseMountPointData;$/;"	t	class:blaze_util::JunctionResolver	typeref:struct:blaze_util::JunctionResolver::_ReparseMountPointData	file:
+ReparseTag	util/file_windows.cc	/^    ULONG ReparseTag;$/;"	m	struct:blaze_util::JunctionResolver::_ReparseMountPointData	file:
+Replace	util/strings.cc	/^void Replace(const string &oldsub, const string &newsub, string *str) {$/;"	f	namespace:blaze_util
+Reset	util/md5.cc	/^void Md5Digest::Reset() {$/;"	f	class:blaze_util::Md5Digest
+ResetForTesting	util/file_windows.cc	/^  static void ResetForTesting() { instance_.initialized_ = false; }$/;"	f	class:blaze_util::MsysRoot
+ResetMsysRootForTesting	util/file_windows.cc	/^void ResetMsysRootForTesting() { MsysRoot::ResetForTesting(); }$/;"	f	namespace:blaze_util
+Resolve	util/file_windows.cc	/^bool JunctionResolver::Resolve(const WCHAR* path, unique_ptr<WCHAR[]>* result) {$/;"	f	class:blaze_util::JunctionResolver
+Resolve	util/file_windows.cc	/^bool JunctionResolver::Resolve(const WCHAR* path, unique_ptr<WCHAR[]>* result,$/;"	f	class:blaze_util::JunctionResolver
+RestartReason	global_variables.h	/^enum RestartReason {$/;"	g	namespace:blaze
+RunProgram	blaze_util_posix.cc	/^static string RunProgram(const string& exe,$/;"	f	namespace:blaze
+S11	util/md5.cc	179;"	d	file:
+S12	util/md5.cc	180;"	d	file:
+S13	util/md5.cc	181;"	d	file:
+S14	util/md5.cc	182;"	d	file:
+S21	util/md5.cc	183;"	d	file:
+S22	util/md5.cc	184;"	d	file:
+S23	util/md5.cc	185;"	d	file:
+S24	util/md5.cc	186;"	d	file:
+S31	util/md5.cc	187;"	d	file:
+S32	util/md5.cc	188;"	d	file:
+S33	util/md5.cc	189;"	d	file:
+S34	util/md5.cc	190;"	d	file:
+S41	util/md5.cc	191;"	d	file:
+S42	util/md5.cc	192;"	d	file:
+S43	util/md5.cc	193;"	d	file:
+S44	util/md5.cc	194;"	d	file:
+SERVER_UNRESPONSIVE	global_variables.h	/^  SERVER_UNRESPONSIVE$/;"	e	enum:blaze::RestartReason
+SERVER_VANISHED	global_variables.h	/^  SERVER_VANISHED,$/;"	e	enum:blaze::RestartReason
+STILL_ACTIVE	blaze_util_windows.cc	769;"	d	file:
+SUCCESS	util/exit_code.h	/^  SUCCESS = 0,$/;"	e	enum:blaze_exit_code::ExitCode
+SUCCESS	util/file.h	/^    SUCCESS = 0,$/;"	e	enum:blaze_util::IPipe::Errors
+SUCCESS	util/file_platform.h	/^    SUCCESS = 0,$/;"	e	enum:blaze_util::ReadFileResult::Errors
+SUCCESS	util/file_platform.h	/^    SUCCESS = 0,$/;"	e	enum:blaze_util::WriteResult::Errors
+SearchNullaryOption	blaze_util.cc	/^bool SearchNullaryOption(const vector<string>& args,$/;"	f	namespace:blaze
+SearchUnaryOption	blaze_util.cc	/^const char* SearchUnaryOption(const vector<string>& args,$/;"	f	namespace:blaze
+SendAction	blaze.cc	/^void GrpcBlazeServer::SendAction(CancelThreadAction action) {$/;"	f	class:blaze::GrpcBlazeServer
+SendCancelMessage	blaze.cc	/^void GrpcBlazeServer::SendCancelMessage() {$/;"	f	class:blaze::GrpcBlazeServer
+SendServerRequest	blaze.cc	/^static ATTRIBUTE_NORETURN void SendServerRequest($/;"	f	namespace:blaze
+ServerJarPath	global_variables.h	/^  std::string ServerJarPath() const {$/;"	f	struct:blaze::GlobalVariables
+ServerNeedsToBeKilled	blaze.cc	/^static bool ServerNeedsToBeKilled(const vector<string> &args1,$/;"	f	namespace:blaze
+Set	util/file_posix.cc	/^bool PosixFileMtime::Set(const string &path, const struct utimbuf &mtime) {$/;"	f	class:blaze_util::PosixFileMtime
+Set	util/file_windows.cc	/^bool WindowsFileMtime::Set(const string& path, const FILETIME& time) {$/;"	f	class:blaze_util::WindowsFileMtime
+SetDebugLog	blaze_util.cc	/^void SetDebugLog(bool enabled) { is_debug_log_enabled = enabled; }$/;"	f	namespace:blaze
+SetEnv	blaze_util_posix.cc	/^void SetEnv(const string& name, const string& value) {$/;"	f	namespace:blaze
+SetEnv	blaze_util_windows.cc	/^void SetEnv(const string& name, const string& value) {$/;"	f	namespace:blaze
+SetLogHandler	util/logging.cc	/^void SetLogHandler(std::unique_ptr<LogHandler> new_handler) {$/;"	f	namespace:blaze_util
+SetLogfileDirectory	util/logging.cc	/^void SetLogfileDirectory(const std::string& output_dir) {$/;"	f	namespace:blaze_util
+SetOutputDir	util/bazel_log_handler.cc	/^void BazelLogHandler::SetOutputDir(const std::string& new_output_dir) {$/;"	f	class:blaze_util::BazelLogHandler
+SetRestartReasonIfNotSet	blaze.cc	/^static void SetRestartReasonIfNotSet(RestartReason restart_reason) {$/;"	f	namespace:blaze
+SetScheduling	blaze_util_darwin.cc	/^void SetScheduling(bool batch_cpu_scheduling, int io_nice_level) {$/;"	f	namespace:blaze
+SetScheduling	blaze_util_freebsd.cc	/^void SetScheduling(bool batch_cpu_scheduling, int io_nice_level) {$/;"	f	namespace:blaze
+SetScheduling	blaze_util_linux.cc	/^void SetScheduling(bool batch_cpu_scheduling, int io_nice_level) {$/;"	f	namespace:blaze
+SetScheduling	blaze_util_windows.cc	/^void SetScheduling(bool batch_cpu_scheduling, int io_nice_level) {$/;"	f	namespace:blaze
+SetToDistantFuture	util/file_posix.cc	/^bool PosixFileMtime::SetToDistantFuture(const string &path) {$/;"	f	class:blaze_util::PosixFileMtime
+SetToDistantFuture	util/file_windows.cc	/^bool WindowsFileMtime::SetToDistantFuture(const string& path) {$/;"	f	class:blaze_util::WindowsFileMtime
+SetToNow	util/file_posix.cc	/^bool PosixFileMtime::SetToNow(const string &path) {$/;"	f	class:blaze_util::PosixFileMtime
+SetToNow	util/file_windows.cc	/^bool WindowsFileMtime::SetToNow(const string& path) {$/;"	f	class:blaze_util::WindowsFileMtime
+SetupStdStreams	blaze_util_posix.cc	/^void SetupStdStreams() {$/;"	f	namespace:blaze
+SetupStdStreams	blaze_util_windows.cc	/^void SetupStdStreams() {$/;"	f	namespace:blaze
+SigPrintf	blaze_util_posix.cc	/^void SigPrintf(const char *format, ...) {$/;"	f	namespace:blaze
+SigPrintf	blaze_util_windows.cc	/^void SigPrintf(const char *format, ...) {$/;"	f	namespace:blaze
+SignalHandler	blaze_util_platform.h	/^  SignalHandler() : _globals(nullptr), _cancel_server(nullptr) {}$/;"	f	class:blaze::SignalHandler
+SignalHandler	blaze_util_platform.h	/^class SignalHandler {$/;"	c	namespace:blaze
+Size	util/file_windows.cc	/^    USHORT Size;$/;"	m	struct:blaze_util::JunctionResolver::_ReparseMountPointData	file:
+SocketBlazeServerStartup	blaze_util_posix.cc	/^SocketBlazeServerStartup::SocketBlazeServerStartup(int fd)$/;"	f	class:blaze::SocketBlazeServerStartup
+SocketBlazeServerStartup	blaze_util_posix.cc	/^class SocketBlazeServerStartup : public BlazeServerStartup {$/;"	c	namespace:blaze	file:
+Split	util/strings.cc	/^vector<string> Split(const string &contents, const char delimeter) {$/;"	f	namespace:blaze_util
+SplitCommandLine	option_processor.cc	/^std::unique_ptr<CommandLine> OptionProcessor::SplitCommandLine($/;"	f	class:blaze::OptionProcessor
+SplitPath	util/file_posix.cc	/^pair<string, string> SplitPath(const string &path) {$/;"	f	namespace:blaze_util
+SplitPath	util/file_windows.cc	/^pair<string, string> SplitPath(const string& path) {$/;"	f	namespace:blaze_util
+SplitPathImpl	util/file_windows.cc	/^static pair<basic_string<char_type>, basic_string<char_type> > SplitPathImpl($/;"	f	namespace:blaze_util
+SplitPathW	util/file_windows.cc	/^pair<wstring, wstring> SplitPathW(const wstring& path) {$/;"	f	namespace:blaze_util
+SplitQuotedStringUsing	util/strings.cc	/^size_t SplitQuotedStringUsing(const string &contents, const char delimeter,$/;"	f	namespace:blaze_util
+SplitStringUsing	util/strings.cc	/^void SplitStringUsing($/;"	f	namespace:blaze_util
+StartServer	blaze.cc	/^static int StartServer(const WorkspaceLayout *workspace_layout,$/;"	f	namespace:blaze
+StartServerAndConnect	blaze.cc	/^static void StartServerAndConnect(const WorkspaceLayout *workspace_layout,$/;"	f	namespace:blaze
+StartStandalone	blaze.cc	/^static void StartStandalone(const WorkspaceLayout *workspace_layout,$/;"	f	namespace:blaze
+StartupFlag	startup_options.h	/^class StartupFlag {$/;"	c	namespace:blaze
+StartupOptions	startup_options.cc	/^StartupOptions::StartupOptions(const WorkspaceLayout* workspace_layout)$/;"	f	class:blaze::StartupOptions
+StartupOptions	startup_options.cc	/^StartupOptions::StartupOptions(const string &product_name,$/;"	f	class:blaze::StartupOptions
+StartupOptions	startup_options.h	/^class StartupOptions {$/;"	c	namespace:blaze
+String	util/md5.cc	/^string Md5Digest::String() const {$/;"	f	class:blaze_util::Md5Digest
+StringPrintf	util/strings.cc	/^void StringPrintf(string *str, const char *format, ...) {$/;"	f	namespace:blaze_util
+StripWhitespace	util/strings.cc	/^void StripWhitespace(string *str) {$/;"	f	namespace:blaze_util
+SymlinkDirectories	blaze_util_posix.cc	/^bool SymlinkDirectories(const string &target, const string &link) {$/;"	f	namespace:blaze
+SymlinkDirectories	blaze_util_windows.cc	/^bool SymlinkDirectories(const string &posix_target, const string &posix_name) {$/;"	f	namespace:blaze
+SyncFile	util/file_posix.cc	/^void SyncFile(const string& path) {$/;"	f	namespace:blaze_util
+SyncFile	util/file_windows.cc	/^void SyncFile(const string& path) {$/;"	f	namespace:blaze_util
+ToLower	util/strings.cc	/^void ToLower(string *str) {$/;"	f	namespace:blaze_util
+ToString	blaze_util.h	/^std::string ToString(const T &value) {$/;"	f	namespace:blaze
+Tokenize	util/strings.cc	/^void Tokenize(const string &str, const char &comment, vector<string> *words) {$/;"	f	namespace:blaze_util
+Transform	util/md5.cc	/^void Md5Digest::Transform($/;"	f	class:blaze_util::Md5Digest
+TryConnect	blaze.cc	/^bool GrpcBlazeServer::TryConnect(command_server::CommandServer::Stub *client) {$/;"	f	class:blaze::GrpcBlazeServer
+TrySleep	blaze_util_posix.cc	/^void TrySleep(unsigned int milliseconds) {$/;"	f	namespace:blaze
+TrySleep	blaze_util_windows.cc	/^void TrySleep(unsigned int milliseconds) {$/;"	f	namespace:blaze
+UNALIGNED_P	util/md5.cc	49;"	d	file:
+UNALIGNED_P	util/md5.cc	52;"	d	file:
+UNALIGNED_P	util/md5.cc	56;"	d	file:
+UTF8StringFromCFStringRef	blaze_util_darwin.cc	/^static string UTF8StringFromCFStringRef(CFStringRef cf_string) {$/;"	f	namespace:blaze
+UnaryStartupFlag	startup_options.h	/^  UnaryStartupFlag(const std::string& name) : name_(name) {}$/;"	f	class:blaze::UnaryStartupFlag
+UnaryStartupFlag	startup_options.h	/^class UnaryStartupFlag : public StartupFlag {$/;"	c	namespace:blaze
+UnlimitResource	blaze_util_posix.cc	/^static bool UnlimitResource(const int resource) {$/;"	f	namespace:blaze
+UnlimitResources	blaze_util_posix.cc	/^bool UnlimitResources() {$/;"	f	namespace:blaze
+UnlimitResources	blaze_util_windows.cc	/^bool UnlimitResources() {$/;"	f	namespace:blaze
+UnlinkPath	util/file_posix.cc	/^bool UnlinkPath(const string &file_path) {$/;"	f	namespace:blaze_util
+UnlinkPath	util/file_windows.cc	/^bool UnlinkPath(const string& file_path) {$/;"	f	namespace:blaze_util
+UnlinkPathW	util/file_windows.cc	/^static bool UnlinkPathW(const wstring& path) {$/;"	f	namespace:blaze_util
+UnsetEnv	blaze_util_posix.cc	/^void UnsetEnv(const string& name) {$/;"	f	namespace:blaze
+UnsetEnv	blaze_util_windows.cc	/^void UnsetEnv(const string& name) { SetEnv(name, ""); }$/;"	f	namespace:blaze
+Update	util/md5.cc	/^void Md5Digest::Update(const void *buf, unsigned int length) {$/;"	f	class:blaze_util::Md5Digest
+UstringToVstring	util/strings.cc	/^static unique_ptr<V[]> UstringToVstring($/;"	f	namespace:blaze_util
+VerboseLogging	blaze_util.cc	/^bool VerboseLogging() { return !GetEnv("VERBOSE_BLAZE_CLIENT").empty(); }$/;"	f	namespace:blaze
+VerifyJavaVersionAndSetJvm	blaze.cc	/^static void VerifyJavaVersionAndSetJvm() {$/;"	f	namespace:blaze
+VerifyServerProcess	blaze_util_darwin.cc	/^bool VerifyServerProcess(int pid, const string &output_base) {$/;"	f	namespace:blaze
+VerifyServerProcess	blaze_util_freebsd.cc	/^bool VerifyServerProcess(int pid, const string &output_base) {$/;"	f	namespace:blaze
+VerifyServerProcess	blaze_util_linux.cc	/^bool VerifyServerProcess(int pid, const string& output_base) {$/;"	f	namespace:blaze
+VerifyServerProcess	blaze_util_windows.cc	/^bool VerifyServerProcess(int pid, const string& output_base) {$/;"	f	namespace:blaze
+Walk	util/file.cc	/^  void Walk(const string &path) { _walk_entries(path, this); }$/;"	f	class:blaze_util::DirectoryTreeWalker
+WarnFilesystemType	blaze_util_darwin.cc	/^void WarnFilesystemType(const string& output_base) {$/;"	f	namespace:blaze
+WarnFilesystemType	blaze_util_freebsd.cc	/^void WarnFilesystemType(const string &output_base) {$/;"	f	namespace:blaze
+WarnFilesystemType	blaze_util_linux.cc	/^void WarnFilesystemType(const string& output_base) {$/;"	f	namespace:blaze
+WarnFilesystemType	blaze_util_windows.cc	/^void WarnFilesystemType(const string& output_base) {$/;"	f	namespace:blaze
+WarnIfStartedFromDesktop	blaze_util_posix.cc	/^bool WarnIfStartedFromDesktop() { return false; }$/;"	f	namespace:blaze
+WarnIfStartedFromDesktop	blaze_util_windows.cc	/^bool WarnIfStartedFromDesktop() {$/;"	f	namespace:blaze
+Which	blaze_util_linux.cc	/^static string Which(const string &executable) {$/;"	f	namespace:blaze
+WindowsClock	blaze_util_windows.cc	/^WindowsClock::WindowsClock()$/;"	f	class:blaze::WindowsClock
+WindowsClock	blaze_util_windows.cc	/^class WindowsClock {$/;"	c	namespace:blaze	file:
+WindowsFileMtime	util/file_windows.cc	/^  WindowsFileMtime()$/;"	f	class:blaze_util::WindowsFileMtime
+WindowsFileMtime	util/file_windows.cc	/^class WindowsFileMtime : public IFileMtime {$/;"	c	namespace:blaze_util	file:
+WindowsPipe	util/file_windows.cc	/^  WindowsPipe(const HANDLE& read_handle, const HANDLE& write_handle)$/;"	f	class:blaze_util::WindowsPipe
+WindowsPipe	util/file_windows.cc	/^class WindowsPipe : public IPipe {$/;"	c	namespace:blaze_util	file:
+WindowsUnixRoot	startup_options.cc	/^string StartupOptions::WindowsUnixRoot(const string &bazel_sh) {$/;"	f	class:blaze::StartupOptions
+WorkspaceLayout	workspace_layout.h	/^class WorkspaceLayout {$/;"	c	namespace:blaze
+WorkspacePrefix	option_processor.cc	/^constexpr char WorkspaceLayout::WorkspacePrefix[];$/;"	m	class:blaze::WorkspaceLayout	file:
+WorkspacePrefix	workspace_layout.h	/^  static constexpr const char WorkspacePrefix[] = "%workspace%\/";$/;"	m	class:blaze::WorkspaceLayout
+WorkspacePrefixLength	workspace_layout.h	/^  static const int WorkspacePrefixLength = sizeof WorkspacePrefix - 1;$/;"	m	class:blaze::WorkspaceLayout
+WorkspaceRcFileSearchPath	workspace_layout.cc	/^void WorkspaceLayout::WorkspaceRcFileSearchPath($/;"	f	class:blaze::WorkspaceLayout
+WorkspaceRelativizeRcFilePath	workspace_layout.cc	/^bool WorkspaceLayout::WorkspaceRelativizeRcFilePath(const string &workspace,$/;"	f	class:blaze::WorkspaceLayout
+WriteFile	util/file.cc	/^bool WriteFile(const std::string &content, const std::string &filename,$/;"	f	namespace:blaze_util
+WriteFile	util/file_posix.cc	/^bool WriteFile(const void *data, size_t size, const string &filename,$/;"	f	namespace:blaze_util
+WriteFile	util/file_windows.cc	/^bool WriteFile(const void* data, size_t size, const string& filename,$/;"	f	namespace:blaze_util
+WriteFileToStderrOrDie	blaze.cc	/^static void WriteFileToStderrOrDie(const char *file_name) {$/;"	f	namespace:blaze
+WriteProcessStartupTime	blaze_util_windows.cc	/^static void WriteProcessStartupTime(const string& server_dir, HANDLE process) {$/;"	f	namespace:blaze
+WriteResult	util/file_platform.h	/^struct WriteResult {$/;"	s	namespace:blaze_util
+WriteSystemSpecificProcessIdentifier	blaze_util_darwin.cc	/^void WriteSystemSpecificProcessIdentifier($/;"	f	namespace:blaze
+WriteSystemSpecificProcessIdentifier	blaze_util_freebsd.cc	/^void WriteSystemSpecificProcessIdentifier($/;"	f	namespace:blaze
+WriteSystemSpecificProcessIdentifier	blaze_util_linux.cc	/^void WriteSystemSpecificProcessIdentifier($/;"	f	namespace:blaze
+WriteToFdWithRetryEintr	blaze_util_posix.cc	/^static void WriteToFdWithRetryEintr($/;"	f	namespace:blaze
+WriteToStdOutErr	util/file_posix.cc	/^int WriteToStdOutErr(const void *data, size_t size, bool to_stdout) {$/;"	f	namespace:blaze_util
+WriteToStdOutErr	util/file_windows.cc	/^int WriteToStdOutErr(const void* data, size_t size, bool to_stdout) {$/;"	f	namespace:blaze_util
+WstringToCstring	util/strings.cc	/^unique_ptr<char[]> WstringToCstring(const wchar_t *input) {$/;"	f	namespace:blaze_util
+_ForEachDirectoryEntry	util/file.h	/^typedef void (*_ForEachDirectoryEntry)(const std::string &path,$/;"	t	namespace:blaze_util
+_GetAllFilesUnder	util/file.cc	/^void _GetAllFilesUnder(const string &path,$/;"	f	namespace:blaze_util
+_ReparseMountPointData	util/file_windows.cc	/^  typedef struct _ReparseMountPointData {$/;"	s	class:blaze_util::JunctionResolver	file:
+_WITH_DPRINTF	blaze_util_posix.cc	15;"	d	file:
+__alignof__	util/md5.h	24;"	d
+_cancel_server	blaze_util_platform.h	/^  Callback _cancel_server;$/;"	m	class:blaze::SignalHandler
+_files	util/file.cc	/^  vector<string> *_files;$/;"	m	class:blaze_util::DirectoryTreeWalker	file:
+_globals	blaze_util_platform.h	/^  GlobalVariables* _globals;$/;"	m	class:blaze::SignalHandler
+_read_handle	util/file_windows.cc	/^  AutoHandle _read_handle;$/;"	m	class:blaze_util::WindowsPipe	file:
+_recv_socket	util/file_posix.cc	/^  int _recv_socket;$/;"	m	class:blaze_util::PosixPipe	file:
+_send_socket	util/file_posix.cc	/^  int _send_socket;$/;"	m	class:blaze_util::PosixPipe	file:
+_walk_entries	util/file.cc	/^  _ForEachDirectoryEntry _walk_entries;$/;"	m	class:blaze_util::DirectoryTreeWalker	file:
+_write_handle	util/file_windows.cc	/^  AutoHandle _write_handle;$/;"	m	class:blaze_util::WindowsPipe	file:
+allow_configurable_attributes	startup_options.h	/^  bool allow_configurable_attributes;$/;"	m	class:blaze::StartupOptions
+arraysize	util/port.h	136;"	d
+ascii_isspace	util/strings.h	/^static inline bool ascii_isspace(unsigned char c) { return kApb[c] & 0x08; }$/;"	f	namespace:blaze_util
+b2a_hex	util/md5.cc	/^static void b2a_hex(const unsigned char* from, string* to, int num) {$/;"	f	namespace:blaze_util
+b2a_hex_t	util/md5.cc	/^static void b2a_hex_t(const unsigned char* b, T a, int num) {$/;"	f	namespace:blaze_util
+batch	startup_options.h	/^  bool batch;$/;"	m	class:blaze::StartupOptions
+batch_cpu_scheduling	startup_options.h	/^  bool batch_cpu_scheduling;$/;"	m	class:blaze::StartupOptions
+binary_path	global_variables.h	/^  std::string binary_path;$/;"	m	struct:blaze::GlobalVariables
+blaze	blaze.cc	/^namespace blaze {$/;"	n	file:
+blaze	blaze.h	/^namespace blaze {$/;"	n
+blaze	blaze_util.cc	/^namespace blaze {$/;"	n	file:
+blaze	blaze_util.h	/^namespace blaze {$/;"	n
+blaze	blaze_util_darwin.cc	/^namespace blaze {$/;"	n	file:
+blaze	blaze_util_freebsd.cc	/^namespace blaze {$/;"	n	file:
+blaze	blaze_util_linux.cc	/^namespace blaze {$/;"	n	file:
+blaze	blaze_util_platform.h	/^namespace blaze {$/;"	n
+blaze	blaze_util_posix.cc	/^namespace blaze {$/;"	n	file:
+blaze	blaze_util_windows.cc	/^namespace blaze {$/;"	n	file:
+blaze	global_variables.cc	/^namespace blaze {$/;"	n	file:
+blaze	global_variables.h	/^namespace blaze {$/;"	n
+blaze	option_processor-internal.h	/^namespace blaze {$/;"	n
+blaze	option_processor.cc	/^namespace blaze {$/;"	n	file:
+blaze	option_processor.h	/^namespace blaze {$/;"	n
+blaze	startup_options.cc	/^namespace blaze {$/;"	n	file:
+blaze	startup_options.h	/^namespace blaze {$/;"	n
+blaze	workspace_layout.cc	/^namespace blaze {$/;"	n	file:
+blaze	workspace_layout.h	/^namespace blaze {$/;"	n
+blaze_exit_code	util/exit_code.h	/^namespace blaze_exit_code {$/;"	n
+blaze_lock_	blaze.cc	/^  BlazeLock blaze_lock_;$/;"	m	class:blaze::BlazeServer	file:
+blaze_server	blaze.cc	/^static BlazeServer *blaze_server;$/;"	m	namespace:blaze	file:
+blaze_util	util/bazel_log_handler.cc	/^namespace blaze_util {$/;"	n	file:
+blaze_util	util/bazel_log_handler.h	/^namespace blaze_util {$/;"	n
+blaze_util	util/errors.cc	/^namespace blaze_util {$/;"	n	file:
+blaze_util	util/errors.h	/^namespace blaze_util {$/;"	n
+blaze_util	util/errors_posix.cc	/^namespace blaze_util {$/;"	n	file:
+blaze_util	util/errors_windows.cc	/^namespace blaze_util {$/;"	n	file:
+blaze_util	util/file.cc	/^namespace blaze_util {$/;"	n	file:
+blaze_util	util/file.h	/^namespace blaze_util {$/;"	n
+blaze_util	util/file_platform.h	/^namespace blaze_util {$/;"	n
+blaze_util	util/file_posix.cc	/^namespace blaze_util {$/;"	n	file:
+blaze_util	util/file_windows.cc	/^namespace blaze_util {$/;"	n	file:
+blaze_util	util/logging.cc	/^namespace blaze_util {$/;"	n	file:
+blaze_util	util/logging.h	/^namespace blaze_util {$/;"	n
+blaze_util	util/md5.cc	/^namespace blaze_util {$/;"	n	file:
+blaze_util	util/md5.h	/^namespace blaze_util {$/;"	n
+blaze_util	util/numbers.cc	/^namespace blaze_util {$/;"	n	file:
+blaze_util	util/numbers.h	/^namespace blaze_util {$/;"	n
+blaze_util	util/port.cc	/^namespace blaze_util {$/;"	n	file:
+blaze_util	util/port.h	/^namespace blaze_util {$/;"	n
+blaze_util	util/strings.cc	/^namespace blaze_util {$/;"	n	file:
+blaze_util	util/strings.h	/^namespace blaze_util {$/;"	n
+blazerc_and_env_command_args_	option_processor.h	/^  std::vector<std::string> blazerc_and_env_command_args_;$/;"	m	class:blaze::OptionProcessor
+blazercs_	option_processor.h	/^  std::vector<RcFile*> blazercs_;$/;"	m	class:blaze::OptionProcessor
+block_for_lock	startup_options.h	/^  bool block_for_lock;$/;"	m	class:blaze::StartupOptions
+buffer_stream_	util/bazel_log_handler.h	/^  std::unique_ptr<std::stringstream> buffer_stream_;$/;"	m	class:blaze_util::BazelLogHandler
+cancel_thread_mutex_	blaze.cc	/^  std::mutex cancel_thread_mutex_;$/;"	m	class:blaze::GrpcBlazeServer	file:
+client_	blaze.cc	/^  std::unique_ptr<command_server::CommandServer::Stub> client_;$/;"	m	class:blaze::GrpcBlazeServer	file:
+client_debug	startup_options.h	/^  bool client_debug;$/;"	m	class:blaze::StartupOptions
+cmd_line_	option_processor.h	/^  std::unique_ptr<CommandLine> cmd_line_;$/;"	m	class:blaze::OptionProcessor
+cmdline	blaze_util_windows.cc	/^  char cmdline[MAX_CMDLINE_LENGTH];$/;"	m	struct:blaze::__anon2::CmdLine	file:
+command	option_processor.h	/^  const std::string command;$/;"	m	struct:blaze::CommandLine
+command_args	option_processor.h	/^  const std::vector<std::string> command_args;$/;"	m	struct:blaze::CommandLine
+command_id_	blaze.cc	/^  std::string command_id_;$/;"	m	class:blaze::GrpcBlazeServer	file:
+command_port	startup_options.h	/^  int command_port;$/;"	m	class:blaze::StartupOptions
+command_wait_time	global_variables.h	/^  uint64_t command_wait_time;$/;"	m	struct:blaze::GlobalVariables
+connect_timeout_secs	startup_options.h	/^  int connect_timeout_secs;$/;"	m	class:blaze::StartupOptions
+connect_timeout_secs_	blaze.cc	/^  int connect_timeout_secs_;$/;"	m	class:blaze::GrpcBlazeServer	file:
+connected_	blaze.cc	/^  bool connected_;$/;"	m	class:blaze::BlazeServer	file:
+count	util/md5.h	/^  unsigned int count[2];          \/\/ number of bits, modulo 2^64 (lsb first)$/;"	m	class:blaze_util::Md5Digest
+ctx_buffer	util/md5.h	/^  unsigned char ctx_buffer[128];  \/\/ input buffer$/;"	m	class:blaze_util::Md5Digest
+ctx_buffer_len	util/md5.h	/^  unsigned int ctx_buffer_len;$/;"	m	class:blaze_util::Md5Digest
+cwd	global_variables.h	/^  std::string cwd;$/;"	m	struct:blaze::GlobalVariables
+debug_log	blaze_util.cc	/^void debug_log(const char *format, ...) {$/;"	f	namespace:blaze
+deep_execroot	startup_options.h	/^  bool deep_execroot;$/;"	m	class:blaze::StartupOptions
+default_host_javabase	startup_options.h	/^  std::string default_host_javabase;$/;"	m	class:blaze::StartupOptions
+die	util/errors.cc	/^void die(const int exit_status, const char *format, ...) {$/;"	f	namespace:blaze_util
+distant_future_	util/file_posix.cc	/^  const struct utimbuf distant_future_;$/;"	m	class:blaze_util::PosixFileMtime	typeref:struct:blaze_util::PosixFileMtime::utimbuf	file:
+distant_future_	util/file_windows.cc	/^  const FILETIME distant_future_;$/;"	m	class:blaze_util::WindowsFileMtime	file:
+embedded_binaries_	blaze.cc	/^  const string embedded_binaries_;$/;"	m	class:blaze::ExtractBlazeZipProcessor	file:
+ends_with	util/strings.cc	/^bool ends_with(const string &haystack, const string &needle) {$/;"	f	namespace:blaze_util
+ends_with	util/strings.cc	/^bool ends_with(const wstring &haystack, const wstring &needle) {$/;"	f	namespace:blaze_util
+ends_with_impl	util/strings.cc	/^static bool ends_with_impl(const std::basic_string<char_type> &haystack,$/;"	f	namespace:blaze_util
+expand_configs_in_place	startup_options.h	/^  bool expand_configs_in_place;$/;"	m	class:blaze::StartupOptions
+extract_data_time	global_variables.h	/^  uint64_t extract_data_time;$/;"	m	struct:blaze::GlobalVariables
+extracted_binaries	global_variables.h	/^  std::vector<std::string> extracted_binaries;$/;"	m	struct:blaze::GlobalVariables
+fatal_event_bus_exceptions	startup_options.h	/^  bool fatal_event_bus_exceptions;$/;"	m	class:blaze::StartupOptions
+fd	blaze_util_posix.cc	/^  int fd;$/;"	m	class:blaze::SocketBlazeServerStartup	file:
+file_handle_type	util/file_platform.h	/^typedef \/* HANDLE *\/ void *file_handle_type;$/;"	t	namespace:blaze_util
+file_handle_type	util/file_platform.h	/^typedef int file_handle_type;$/;"	t	namespace:blaze_util
+filename_	option_processor.h	/^    std::string filename_;$/;"	m	class:blaze::OptionProcessor::RcFile
+filename_	util/logging.h	/^  const std::string& filename_;$/;"	m	class:blaze_util::internal::LogMessage
+files_	blaze.cc	/^  std::vector<std::string>* files_;$/;"	m	class:blaze::NoteAllFilesZipProcessor	file:
+get	blaze_util_darwin.cc	/^  T get() { return value_; }$/;"	f	class:blaze::CFScopedReleaser
+globals	blaze.cc	/^static GlobalVariables *globals;$/;"	m	namespace:blaze	file:
+handle	blaze_util_platform.h	/^  \/* HANDLE *\/ void* handle;$/;"	m	struct:blaze::BlazeLock
+handler	blaze_util_posix.cc	/^static void handler(int signum) {$/;"	f	namespace:blaze
+hex_char	util/md5.cc	/^static char hex_char[] = "0123456789abcdef";$/;"	m	namespace:blaze_util	file:
+host_javabase	startup_options.h	/^  std::string host_javabase;$/;"	m	class:blaze::StartupOptions
+host_jvm_args	startup_options.h	/^  std::vector<std::string> host_jvm_args;$/;"	m	class:blaze::StartupOptions
+host_jvm_debug	startup_options.h	/^  bool host_jvm_debug;$/;"	m	class:blaze::StartupOptions
+host_jvm_profile	startup_options.h	/^  std::string host_jvm_profile;$/;"	m	class:blaze::StartupOptions
+index_	option_processor.h	/^    int index_;$/;"	m	class:blaze::OptionProcessor::RcFile
+initialized_	util/file_windows.cc	/^  bool initialized_;$/;"	m	class:blaze_util::MsysRoot	file:
+install_base	startup_options.h	/^  std::string install_base;$/;"	m	class:blaze::StartupOptions
+install_base_key_	blaze.cc	/^  string *install_base_key_;$/;"	m	class:blaze::GetInstallKeyFileProcessor	file:
+install_md5	global_variables.h	/^  std::string install_md5;$/;"	m	struct:blaze::GlobalVariables
+instance_	util/file_windows.cc	/^  static MsysRoot instance_;$/;"	m	class:blaze_util::MsysRoot	file:
+instance_	util/file_windows.cc	/^MsysRoot MsysRoot::instance_;$/;"	m	class:blaze_util::MsysRoot	file:
+internal	option_processor-internal.h	/^namespace internal {$/;"	n	namespace:blaze
+internal	option_processor.cc	/^namespace internal {$/;"	n	namespace:blaze	file:
+internal	util/logging.cc	/^namespace internal {$/;"	n	namespace:blaze_util	file:
+internal	util/logging.h	/^namespace internal {$/;"	n	namespace:blaze_util
+invocation_policy	startup_options.h	/^  const char *invocation_policy;$/;"	m	class:blaze::StartupOptions
+io_nice_level	startup_options.h	/^  int io_nice_level;$/;"	m	class:blaze::StartupOptions
+isValid	blaze_util_darwin.cc	/^  bool isValid() { return value_ != NULL; }$/;"	f	class:blaze::CFScopedReleaser
+is_debug_log_enabled	blaze_util.cc	/^static bool is_debug_log_enabled = false;$/;"	m	namespace:blaze	file:
+java_logging_formatter	startup_options.h	/^  std::string java_logging_formatter;$/;"	m	class:blaze::StartupOptions
+jvm_log_file	global_variables.h	/^  std::string jvm_log_file;$/;"	m	struct:blaze::GlobalVariables
+jvm_log_file_append	global_variables.h	/^  bool jvm_log_file_append;$/;"	m	struct:blaze::GlobalVariables
+jvm_path	global_variables.h	/^  std::string jvm_path;$/;"	m	struct:blaze::GlobalVariables
+k8ByteMask	util/md5.cc	/^static const unsigned int k8ByteMask = 63;$/;"	m	namespace:blaze_util	file:
+k8Bytes	util/md5.cc	/^static const unsigned int k8Bytes = 64;$/;"	m	namespace:blaze_util	file:
+kApb	util/strings.h	28;"	d
+kAsciiPropertyBits	util/strings.cc	/^const unsigned char kAsciiPropertyBits[256] = {$/;"	m	namespace:blaze_util	file:
+kAsciiToInt	util/numbers.cc	/^static const int8_t kAsciiToInt[256] = {$/;"	m	namespace:blaze_util	file:
+kDigestLength	util/md5.h	/^  static const int kDigestLength = 16;$/;"	m	class:blaze_util::Md5Digest
+kFrequency	blaze_util_windows.cc	/^  const LARGE_INTEGER kFrequency;$/;"	m	class:blaze::WindowsClock	file:
+kListSeparator	blaze_util_posix.cc	/^const char kListSeparator = ':';$/;"	m	namespace:blaze	file:
+kListSeparator	blaze_util_windows.cc	/^const char kListSeparator = ';';$/;"	m	namespace:blaze	file:
+kMaximumJunctionDepth	util/file_windows.cc	/^  static const int kMaximumJunctionDepth;$/;"	m	class:blaze_util::JunctionResolver	file:
+kMaximumJunctionDepth	util/file_windows.cc	/^const int JunctionResolver::kMaximumJunctionDepth = 63;$/;"	m	class:blaze_util::JunctionResolver	file:
+kPadding	util/md5.cc	/^static const unsigned char kPadding[64] = {$/;"	m	namespace:blaze_util	file:
+kPostKillGracePeriodSeconds	blaze_util.cc	/^const unsigned int kPostKillGracePeriodSeconds = 10;$/;"	m	namespace:blaze	file:
+kPostShutdownGracePeriodSeconds	blaze_util.cc	/^const unsigned int kPostShutdownGracePeriodSeconds = 60;$/;"	m	namespace:blaze	file:
+kRenameDirectoryFailureNotEmpty	util/file_platform.h	/^  kRenameDirectoryFailureNotEmpty = 1,$/;"	e	enum:blaze_util::RenameDirectoryResult
+kRenameDirectoryFailureOtherError	util/file_platform.h	/^  kRenameDirectoryFailureOtherError = 2,$/;"	e	enum:blaze_util::RenameDirectoryResult
+kRenameDirectorySuccess	util/file_platform.h	/^  kRenameDirectorySuccess = 0,$/;"	e	enum:blaze_util::RenameDirectoryResult
+kSeparator	util/strings.cc	/^static const char kSeparator[] = " \\n\\t\\r";$/;"	m	namespace:blaze_util	file:
+kServerPidFile	blaze_util.cc	/^const char kServerPidFile[] = "server.pid.txt";$/;"	m	namespace:blaze	file:
+kSize	util/file_windows.cc	/^    static const int kSize = MAXIMUM_REPARSE_DATA_BUFFER_SIZE;$/;"	m	struct:blaze_util::JunctionResolver::_ReparseMountPointData	file:
+kStart	blaze_util_windows.cc	/^  const LARGE_INTEGER kStart;$/;"	m	class:blaze::WindowsClock	file:
+kWindowsPathBufferSize	blaze_util_windows.cc	/^static const size_t kWindowsPathBufferSize = 0x8010;$/;"	m	namespace:blaze	file:
+kWorkspaceMarker	workspace_layout.cc	/^static const char kWorkspaceMarker[] = "WORKSPACE";$/;"	m	namespace:blaze	file:
+kint32max	util/numbers.cc	/^static const int32_t kint32max = static_cast<int32_t>(0x7FFFFFFF);$/;"	m	namespace:blaze_util	file:
+kint32min	util/numbers.cc	/^static const int32_t kint32min = static_cast<int32_t>(~0x7FFFFFFF);$/;"	m	namespace:blaze_util	file:
+level_	util/logging.h	/^  LogLevel level_;$/;"	m	class:blaze_util::internal::LogMessage
+line_	util/logging.h	/^  int line_;$/;"	m	class:blaze_util::internal::LogMessage
+lockfile	global_variables.h	/^  std::string lockfile;  \/\/ = <output_base>\/lock$/;"	m	struct:blaze::GlobalVariables
+logfile_stream_	util/bazel_log_handler.h	/^  std::unique_ptr<std::ofstream> logfile_stream_;$/;"	m	class:blaze_util::BazelLogHandler
+main	main.cc	/^int main(int argc, const char *argv[]) {$/;"	f
+max_idle_secs	startup_options.h	/^  int max_idle_secs;$/;"	m	class:blaze::StartupOptions
+message_	util/logging.h	/^  std::stringstream message_;$/;"	m	class:blaze_util::internal::LogMessage
+name_	startup_options.h	/^  const std::string name_;$/;"	m	class:blaze::NullaryStartupFlag
+name_	startup_options.h	/^  const std::string name_;$/;"	m	class:blaze::UnaryStartupFlag
+near_future_	util/file_posix.cc	/^  const time_t near_future_;$/;"	m	class:blaze_util::PosixFileMtime	file:
+near_future_	util/file_windows.cc	/^  const FILETIME near_future_;$/;"	m	class:blaze_util::WindowsFileMtime	file:
+null_grpc_log_function	blaze.cc	/^static void null_grpc_log_function(gpr_log_func_args *args) {}$/;"	f	namespace:blaze
+oom_more_eagerly	startup_options.h	/^  bool oom_more_eagerly;$/;"	m	class:blaze::StartupOptions
+oom_more_eagerly_threshold	startup_options.h	/^  int oom_more_eagerly_threshold;$/;"	m	class:blaze::StartupOptions
+operator =	util/logging.cc	/^void LogFinisher::operator=(LogMessage& other) { other.Finish(); }$/;"	f	class:blaze_util::internal::LogFinisher
+operator T	blaze_util_darwin.cc	/^  operator T() { return value_; }$/;"	f	class:blaze::CFScopedReleaser
+option	option_processor.h	/^    const std::string& option() const { return option_; }$/;"	f	class:blaze::OptionProcessor::RcOption
+option_	option_processor.h	/^    std::string option_;$/;"	m	class:blaze::OptionProcessor::RcOption
+option_processor	global_variables.h	/^  OptionProcessor *option_processor;$/;"	m	struct:blaze::GlobalVariables
+option_sources	startup_options.h	/^  std::map<std::string, std::string> option_sources;$/;"	m	class:blaze::StartupOptions
+options	global_variables.h	/^  StartupOptions *options;  \/\/ TODO(jmmv): This should really be const.$/;"	m	struct:blaze::GlobalVariables
+original_startup_options_	startup_options.h	/^  std::vector<RcStartupFlag> original_startup_options_;$/;"	m	class:blaze::StartupOptions
+output_base	startup_options.h	/^  std::string output_base;$/;"	m	class:blaze::StartupOptions
+output_dir_set_attempted_	util/bazel_log_handler.h	/^  bool output_dir_set_attempted_;$/;"	m	class:blaze_util::BazelLogHandler
+output_root	startup_options.h	/^  std::string output_root;$/;"	m	class:blaze::StartupOptions
+output_user_root	startup_options.h	/^  std::string output_user_root;$/;"	m	class:blaze::StartupOptions
+override	startup_options.h	/^  bool IsValid(const std::string& arg) const override;$/;"	m	class:blaze::NullaryStartupFlag
+override	startup_options.h	/^  bool IsValid(const std::string& arg) const override;$/;"	m	class:blaze::UnaryStartupFlag
+override	startup_options.h	/^  bool NeedsParameter() const override;$/;"	m	class:blaze::NullaryStartupFlag
+override	startup_options.h	/^  bool NeedsParameter() const override;$/;"	m	class:blaze::UnaryStartupFlag
+override	util/bazel_log_handler.h	/^                     int line, const std::string& message) override;$/;"	m	class:blaze_util::BazelLogHandler
+override	util/bazel_log_handler.h	/^  void SetOutputDir(const std::string& new_output_dir) override;$/;"	m	class:blaze_util::BazelLogHandler
+override	util/bazel_log_handler.h	/^  ~BazelLogHandler() override;$/;"	m	class:blaze_util::BazelLogHandler
+override	util/file_posix.cc	/^  bool GetIfInDistantFuture(const string &path, bool *result) override;$/;"	m	class:blaze_util::PosixFileMtime	file:
+override	util/file_posix.cc	/^  bool SetToDistantFuture(const string &path) override;$/;"	m	class:blaze_util::PosixFileMtime	file:
+override	util/file_posix.cc	/^  bool SetToNow(const string &path) override;$/;"	m	class:blaze_util::PosixFileMtime	file:
+override	util/file_windows.cc	/^  bool GetIfInDistantFuture(const string& path, bool* result) override;$/;"	m	class:blaze_util::WindowsFileMtime	file:
+override	util/file_windows.cc	/^  bool SetToDistantFuture(const string& path) override;$/;"	m	class:blaze_util::WindowsFileMtime	file:
+override	util/file_windows.cc	/^  bool SetToNow(const string& path) override;$/;"	m	class:blaze_util::WindowsFileMtime	file:
+parsed_startup_options_	option_processor.h	/^  std::unique_ptr<StartupOptions> parsed_startup_options_;$/;"	m	class:blaze::OptionProcessor
+path_	util/file_windows.cc	/^  string path_;$/;"	m	class:blaze_util::MsysRoot	file:
+path_to_binary	option_processor.h	/^  const std::string path_to_binary;$/;"	m	struct:blaze::CommandLine
+pdie	util/errors.cc	/^void pdie(const int exit_status, const char *format, ...) {$/;"	f	namespace:blaze_util
+pid_t	util/port.h	/^typedef int pid_t;$/;"	t
+pipe_	blaze.cc	/^  blaze_util::IPipe *pipe_;$/;"	m	class:blaze::GrpcBlazeServer	file:
+proc	blaze_util_windows.cc	/^  AutoHandle proc;$/;"	m	class:blaze::ProcessHandleBlazeServerStartup	file:
+processors_	blaze.cc	/^  const vector<PureZipExtractorProcessor*> processors_;$/;"	m	class:blaze::CompoundZipProcessor	file:
+product_name	startup_options.h	/^  const std::string product_name;$/;"	m	class:blaze::StartupOptions
+rcfile_index	option_processor.h	/^    const int rcfile_index() const { return rcfile_index_; }$/;"	f	class:blaze::OptionProcessor::RcOption
+rcfile_index_	option_processor.h	/^    int rcfile_index_;$/;"	m	class:blaze::OptionProcessor::RcOption
+rcoptions_	option_processor.h	/^  std::map<std::string, std::vector<RcOption>> rcoptions_;$/;"	m	class:blaze::OptionProcessor
+reparse_buffer_	util/file_windows.cc	/^  ReparseMountPointData* reparse_buffer_;$/;"	m	class:blaze_util::JunctionResolver	file:
+reparse_buffer_bytes_	util/file_windows.cc	/^  uint8_t reparse_buffer_bytes_[ReparseMountPointData::kSize];$/;"	m	class:blaze_util::JunctionResolver	file:
+request_cookie_	blaze.cc	/^  std::string request_cookie_;$/;"	m	class:blaze::GrpcBlazeServer	file:
+response_cookie_	blaze.cc	/^  std::string response_cookie_;$/;"	m	class:blaze::GrpcBlazeServer	file:
+restart_reason	global_variables.h	/^  RestartReason restart_reason;$/;"	m	struct:blaze::GlobalVariables
+safe_parse_negative_int	util/numbers.cc	/^inline bool safe_parse_negative_int(const char *text, int* value_p) {$/;"	f	namespace:blaze_util
+safe_parse_positive_int	util/numbers.cc	/^inline bool safe_parse_positive_int(const char *text, int* value_p) {$/;"	f	namespace:blaze_util
+safe_parse_sign	util/numbers.cc	/^inline bool safe_parse_sign(const char** rest, \/*inout*\/$/;"	f	namespace:blaze_util
+safe_strto32	util/numbers.cc	/^bool safe_strto32(const string &text, int *value_p) {$/;"	f	namespace:blaze_util
+server_jvm_out	startup_options.h	/^  std::string server_jvm_out;$/;"	m	class:blaze::StartupOptions
+server_pid	global_variables.h	/^  pid_t server_pid;$/;"	m	struct:blaze::GlobalVariables
+setlk	blaze_util_posix.cc	/^static int setlk(int fd, struct flock *lock) {$/;"	f	namespace:blaze
+signal_handler_received_signal	blaze_util_posix.cc	/^static volatile sig_atomic_t signal_handler_received_signal = 0;$/;"	m	namespace:blaze	file:
+sizeof	blaze_util_windows.cc	/^static_assert(sizeof(wchar_t) == sizeof(WCHAR),$/;"	m	namespace:blaze	file:
+source	startup_options.h	/^  const std::string source;$/;"	m	struct:blaze::RcStartupFlag
+starts_with	util/strings.cc	/^bool starts_with(const string &haystack, const string &needle) {$/;"	f	namespace:blaze_util
+startup_args	option_processor.h	/^  const std::vector<std::string> startup_args;$/;"	m	struct:blaze::CommandLine
+startup_time	global_variables.h	/^  uint64_t startup_time;$/;"	m	struct:blaze::GlobalVariables
+state	util/md5.h	/^  unsigned int state[4];          \/\/ state (ABCD)$/;"	m	class:blaze_util::Md5Digest
+string_as_array	util/strings.h	/^inline char *string_as_array(std::string *str) {$/;"	f	namespace:blaze_util
+strprefix	util/strings.h	45;"	d
+strto32	util/numbers.cc	/^int32_t strto32(const char *str, char **endptr, int base) {$/;"	f	namespace:blaze_util
+sys_ioprio_set	util/port.cc	/^int sys_ioprio_set(int which, int who, int ioprio) {$/;"	f	namespace:blaze_util
+valid_	util/file_windows.cc	/^  bool valid_;$/;"	m	class:blaze_util::MsysRoot	file:
+valid_startup_flags	startup_options.h	/^  std::set<std::unique_ptr<StartupFlag>> valid_startup_flags;$/;"	m	class:blaze::StartupOptions
+value	startup_options.h	/^  const std::string value;$/;"	m	struct:blaze::RcStartupFlag
+value_	blaze_util_darwin.cc	/^  T value_;$/;"	m	class:blaze::CFScopedReleaser	file:
+var_strprefix	util/strings.h	/^inline CharStar var_strprefix(CharStar str, const char *prefix) {$/;"	f	namespace:blaze_util
+volatile_startup_options	blaze.cc	/^const char *volatile_startup_options[] = {$/;"	m	namespace:blaze	file:
+watchfs	startup_options.h	/^  bool watchfs;$/;"	m	class:blaze::StartupOptions
+workspace	global_variables.h	/^  std::string workspace;$/;"	m	struct:blaze::GlobalVariables
+workspace_layout_	option_processor.h	/^  const WorkspaceLayout* workspace_layout_;$/;"	m	class:blaze::OptionProcessor
+write_command_log	startup_options.h	/^  bool write_command_log;$/;"	m	class:blaze::StartupOptions
+~BazelLogHandler	util/bazel_log_handler.cc	/^BazelLogHandler::~BazelLogHandler() {$/;"	f	class:blaze_util::BazelLogHandler
+~BlazeServer	blaze.cc	/^  virtual ~BlazeServer() {}$/;"	f	class:blaze::BlazeServer
+~BlazeServerStartup	blaze_util_platform.h	/^  virtual ~BlazeServerStartup() {}$/;"	f	class:blaze::BlazeServerStartup
+~CFScopedReleaser	blaze_util_darwin.cc	/^  ~CFScopedReleaser() {$/;"	f	class:blaze::CFScopedReleaser
+~DirectoryEntryConsumer	util/file_platform.h	/^  virtual ~DirectoryEntryConsumer() {}$/;"	f	class:blaze_util::DirectoryEntryConsumer
+~GrpcBlazeServer	blaze.cc	/^GrpcBlazeServer::~GrpcBlazeServer() {$/;"	f	class:blaze::GrpcBlazeServer
+~IFileMtime	util/file_platform.h	/^  virtual ~IFileMtime() {}$/;"	f	class:blaze_util::IFileMtime
+~IPipe	util/file.h	/^  virtual ~IPipe() {}$/;"	f	class:blaze_util::IPipe
+~LogHandler	util/logging.h	/^  virtual ~LogHandler() {}$/;"	f	class:blaze_util::LogHandler
+~OptionProcessor	option_processor.cc	/^OptionProcessor::~OptionProcessor() {$/;"	f	class:blaze::OptionProcessor
+~PosixPipe	util/file_posix.cc	/^  virtual ~PosixPipe() {$/;"	f	class:blaze_util::PosixPipe
+~PureZipExtractorProcessor	blaze.cc	/^  virtual ~PureZipExtractorProcessor() {}$/;"	f	class:blaze::PureZipExtractorProcessor
+~SocketBlazeServerStartup	blaze_util_posix.cc	/^SocketBlazeServerStartup::~SocketBlazeServerStartup() {$/;"	f	class:blaze::SocketBlazeServerStartup
+~StartupFlag	startup_options.cc	/^StartupFlag::~StartupFlag() {}$/;"	f	class:blaze::StartupFlag
+~StartupOptions	startup_options.cc	/^StartupOptions::~StartupOptions() {}$/;"	f	class:blaze::StartupOptions
